@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow&subset=latin,cyrillic);
+
+@font-face {
+	font-family:'AcquestScript-Regular';
+	src: url('../fonts/AcquestScript/AcquestScript.eot');
+	src: url('../fonts/AcquestScript/AcquestScript.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/AcquestScript/AcquestScript.woff') format('woff'),
+	url('../fonts/AcquestScript/AcquestScript.ttf') format('truetype'),
+	url('../fonts/AcquestScript/AcquestScript.svg#AcquestScript-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-201D;
+}
+
+@font-face {
+	font-family:'FuturaCondensedPlain-Regular';
+	src: url('../fonts/FuturaCondensedPlain/FuturaCondensedPlain.eot');
+	src: url('../fonts/FuturaCondensedPlain/FuturaCondensedPlain.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/FuturaCondensedPlain/FuturaCondensedPlain.woff') format('woff'),
+	url('../fonts/FuturaCondensedPlain/FuturaCondensedPlain.ttf') format('truetype'),
+	url('../fonts/FuturaCondensedPlain/FuturaCondensedPlain.svg#FuturaCondensedPlain-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2020;
+}
