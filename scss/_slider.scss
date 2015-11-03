@@ -12,6 +12,7 @@
 		width: 35px;
 		height: 68px;
 		z-index: 100;
+		display: none;
 		cursor: pointer;
 		margin-top: -34px;
 		position: absolute;
@@ -36,11 +37,12 @@
 		}
 	}
 
-	.btn-down{
+	.btn-down {
 		left: 50%;
 		width: 67px;
 		height: 35px;
 		bottom: 25px;
+		display: none;
 		cursor: pointer;
 		margin-left: -34px;
 		position: absolute;
@@ -56,6 +58,14 @@
 	}
 
 	@media (min-width: $screen-md-min) {
+
+		.slider-nav {
+			display: block;
+		}
+
+		.btn-down {
+			display: block;
+		}
 
 	}
 

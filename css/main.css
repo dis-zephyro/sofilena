@@ -1888,6 +1888,7 @@ label {
     width: 35px;
     height: 68px;
     z-index: 100;
+    display: none;
     cursor: pointer;
     margin-top: -34px;
     position: absolute;
@@ -1907,6 +1908,7 @@ label {
     width: 67px;
     height: 35px;
     bottom: 25px;
+    display: none;
     cursor: pointer;
     margin-left: -34px;
     position: absolute;
@@ -1916,6 +1918,11 @@ label {
   @media (min-width: 768px) {
     .slider {
       max-height: 723px; } }
+  @media (min-width: 1170px) {
+    .slider .slider-nav {
+      display: block; }
+    .slider .btn-down {
+      display: block; } }
   @media (min-width: 1620px) {
     .slider {
       max-height: 860px; } }
