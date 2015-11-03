@@ -1,17 +1,16 @@
 .form-control {
 	margin: 0;
 	width: 100%;
-	color: #eee;
+	color: #fff;
 	border: none;
 	outline: none;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 20px;
-	padding: 10px 10px;
-	font-style: italic;
+	padding: 5px 0 0 0;
 	display: inline-block;
 	background: transparent;
-	border-bottom: 1px solid #eee;
-	@include placeholder(#eee);
+	border-bottom: 1px solid #fff;
+	@include placeholder(#fff);
 
 	&::-ms-clear {
 		display: none;
@@ -19,22 +18,13 @@
 		height: 0;
 	}
 
-	&.invert {
-		color: #5b646e;
-		border-color: #5b646e;
-		@include placeholder(#5b646e);
+	&:focus {
+		@include placeholder(transparent);
 	}
 }
 
 .red {
 
-	.form-control {
-		border-color: #ff0000;
-
-		&.invert {
-			border-color: #ff0000;
-		}
-	}
 }
 
 
@@ -45,5 +35,6 @@ label {
 }
 
 .form-group {
+	position: relative;
 	margin-bottom: 20px;
 }

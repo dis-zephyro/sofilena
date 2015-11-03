@@ -31,10 +31,18 @@
 @import "components/responsive-utilities";
 @import "components/responsive-embed";
 
+// Components
+@import "../js/vendor/slick/slick";
+
 
 // Pages
 
 @import "header";
+@import "footer";
+@import "slider";
+@import "promo";
+@import "hits";
+@import "promo-video";
 
 
 

@@ -1,0 +1,102 @@
+.promo-video {
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+	.promo-video-title {
+		color: #000;
+		font-size: 13px;
+		padding-top: 30px;
+		margin-bottom: 15px;
+		font-family: $font-serif;
+	}
+
+	@media (min-width: $screen-sm-min) {
+
+		.promo-video-title {
+			font-size: 26px;
+		}
+	}
+
+	@media (min-width: $screen-md-min) {
+		padding-top: 40px;
+
+		.promo-video-title {
+			font-size: 21px;
+			line-height: 30px;
+		}
+	}
+
+	@media (min-width: $screen-lg-min) {
+
+		.promo-video-title {
+			font-size: 30px;
+			line-height: 40px;
+		}
+	}
+}
+
+
+.promo-ring-block {
+	padding-bottom: 40px;
+
+	.promo-ring {
+		width: 140px;
+		height: 140px;
+		color: #1a1a1a;
+		display: table;
+		overflow: hidden;
+		background: #fbf9fc;
+		text-align: center;
+		margin: 0 auto 10px auto;
+		border: 2px solid #966993;
+		text-transform: uppercase;
+		@include border-radius(50%);
+
+		&:hover {
+			background: #fff;
+		}
+
+		.promo-ring-inner {
+			width: 100%;
+			height: 100%;
+			display: table-cell;
+			vertical-align: middle;
+		}
+
+		.promo-ring-icon {
+			margin-bottom: 10px;
+			display: inline-block;
+
+			img {
+				@include img-responsive(inline-block);
+			}
+		}
+
+		.promo-ring-title {
+			font-size: 13px;
+			display: block;
+
+		}
+
+		.promo-ring-text {
+			font-size: 10px;
+			display: block;
+		}
+	}
+
+	@media (min-width: $screen-sm-min) {
+
+		.promo-ring {
+			margin-bottom: 30px;
+		}
+	}
+
+	@media (min-width: $screen-md-min) {
+
+		.promo-ring {
+			width: 160px;
+			height: 160px;
+			margin-bottom: 0;
+		}
+	}
+}
