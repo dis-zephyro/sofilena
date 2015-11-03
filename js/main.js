@@ -96,6 +96,26 @@ $(function() {
 
 //  Sliders
 
+$('.slider__body').slick({
+    arrows: false,
+    autoplay: true,
+    dots: false,
+    autoplaySpeed: 4000,
+    slidesToShow: 1,
+    slidesToScroll: 1
+});
+
+
+
+$('.slider .prev').click(function(){
+    $('.slider__body').slick('slickPrev');
+});
+
+$('.slider .next').click(function(){
+    $('.slider__body').slick('slickNext');
+});
+
+
 $('.promoSlider__new').slick({
     arrows: false,
     autoplay: true,
