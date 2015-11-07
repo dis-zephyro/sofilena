@@ -100,6 +100,7 @@
 			}
 		}
 
+
 		.btn-nav {
 			width: 24px;
 			float: left;
@@ -117,6 +118,65 @@
 				display: block;
 				background: #fff;
 				margin-bottom: 3px;
+			}
+		}
+
+		.dropnav {
+			left: 0;
+			top: 100%;
+			z-index: 800;
+			width: 800px;
+			display: none;
+			background: #fff;
+			position: absolute;
+			padding: 20px 20px 0 20px;
+
+			.dropnav__column {
+				width: 250px;
+				float: left;
+				padding-right: 60px;
+
+			}
+
+			ul {
+				margin: 0;
+				list-style: none;
+				padding: 0 0 25px 0;
+
+				> li {
+
+					a {
+						color: #000;
+						font-size: 14px;
+						line-height: 20px;
+						text-decoration: none;
+						text-transform: capitalize;
+
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+
+					&:first-child {
+
+						a {
+							color: #747474;
+							font-size: 17px;
+							text-transform: uppercase;
+						}
+
+						&.sale a {
+							color: #e24d1e;
+						}
+					}
+				}
+			}
+
+			.dropnav__sale {
+				float: left;
+				width: 280px;
+				display: block;
+				margin-left: -20px;
 			}
 		}
 	}
@@ -402,14 +462,31 @@
 		.primaryNav {
 			width: auto;
 			float: right;
-			padding: 8px 0;
+			padding: 0;
 
 			> ul {
+				padding: 0;
 
 				>   li {
-					font-size: 15px;
 					margin: 0 6px;
+					padding: 10px 0;
+					font-size: 15px;
+					line-height: 20px;
+					position: relative;
 				}
+			}
+
+			.btn-nav {
+				width: 24px;
+				float: left;
+				font-size: 0;
+				line-height: 0;
+				display: block;
+				cursor: pointer;
+				padding-top: 3px;
+				padding-bottom: 1px;
+				margin-top: 9px;
+				margin-right: 5px;
 			}
 		}
 
@@ -544,7 +621,36 @@
 		.primaryNav {
 			float: left;
 
+			> ul {
+
+				> li {
+
+					&:hover {
+
+						.dropnav {
+							display: block;
+						}
+
+						&.drop-down {
+
+							&:before {
+								left: 0;
+								right: 0;
+								bottom: 0;
+								content: ' ';
+								position: absolute;
+								border-bottom: 4px solid #e24d1e;
+							}
+						}
+					}
+				}
+			}
+
 			.btn-nav {
+				display: none;
+			}
+
+			.dropnav {
 				display: none;
 			}
 		}

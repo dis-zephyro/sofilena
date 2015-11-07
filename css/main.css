@@ -1433,6 +1433,42 @@ label {
       display: block;
       background: #fff;
       margin-bottom: 3px; }
+  .header .primaryNav .dropnav {
+    left: 0;
+    top: 100%;
+    z-index: 800;
+    width: 800px;
+    display: none;
+    background: #fff;
+    position: absolute;
+    padding: 20px 20px 0 20px; }
+    .header .primaryNav .dropnav .dropnav__column {
+      width: 250px;
+      float: left;
+      padding-right: 60px; }
+    .header .primaryNav .dropnav ul {
+      margin: 0;
+      list-style: none;
+      padding: 0 0 25px 0; }
+      .header .primaryNav .dropnav ul > li a {
+        color: #000;
+        font-size: 14px;
+        line-height: 20px;
+        text-decoration: none;
+        text-transform: capitalize; }
+        .header .primaryNav .dropnav ul > li a:hover {
+          text-decoration: underline; }
+      .header .primaryNav .dropnav ul > li:first-child a {
+        color: #747474;
+        font-size: 17px;
+        text-transform: uppercase; }
+      .header .primaryNav .dropnav ul > li:first-child.sale a {
+        color: #e24d1e; }
+    .header .primaryNav .dropnav .dropnav__sale {
+      float: left;
+      width: 280px;
+      display: block;
+      margin-left: -20px; }
 .header .support-bar {
   top: 0;
   left: 125px;
@@ -1618,10 +1654,26 @@ label {
   .header .primaryNav {
     width: auto;
     float: right;
-    padding: 8px 0; }
-    .header .primaryNav > ul > li {
-      font-size: 15px;
-      margin: 0 6px; }
+    padding: 0; }
+    .header .primaryNav > ul {
+      padding: 0; }
+      .header .primaryNav > ul > li {
+        margin: 0 6px;
+        padding: 10px 0;
+        font-size: 15px;
+        line-height: 20px;
+        position: relative; }
+    .header .primaryNav .btn-nav {
+      width: 24px;
+      float: left;
+      font-size: 0;
+      line-height: 0;
+      display: block;
+      cursor: pointer;
+      padding-top: 3px;
+      padding-bottom: 1px;
+      margin-top: 9px;
+      margin-right: 5px; }
   .header .support-bar {
     left: auto;
     right: auto;
@@ -1712,7 +1764,18 @@ label {
 @media (min-width: 1170px) {
   .header .primaryNav {
     float: left; }
+    .header .primaryNav > ul > li:hover .dropnav {
+      display: block; }
+    .header .primaryNav > ul > li:hover.drop-down:before {
+      left: 0;
+      right: 0;
+      bottom: 0;
+      content: ' ';
+      position: absolute;
+      border-bottom: 4px solid #e24d1e; }
     .header .primaryNav .btn-nav {
+      display: none; }
+    .header .primaryNav .dropnav {
       display: none; }
   .header .support-bar {
     width: auto;
