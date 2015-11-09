@@ -1,0 +1,96 @@
+.page {
+
+}
+
+.sidebar {
+	width: 100%;
+	float: left;
+	display: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 40px;
+}
+
+.content {
+	width: 100%;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+@media (min-width: $screen-md-min) {
+
+	.page {
+		padding-top: 20px;
+	}
+
+	.sidebar {
+		width: 290px;
+		display: block;
+	}
+
+	.content {
+		width: 870px;
+	}
+}
+
+@media (min-width: $screen-lg-min) {
+
+	.sidebar {
+		width: 320px;
+	}
+
+	.content {
+		width: 1280px;
+	}
+}
+
+
+
+
+// Modal box slyles
+
+.modal-nav {
+	top: 50%;
+	width: 35px;
+	height: 68px;
+	z-index: 200;
+	display: block;
+	cursor: pointer;
+	margin-top: -34px;
+	position: absolute;
+	background: url("../img/slider_nav.png") no-repeat;
+
+	&.prev {
+		left: 15px;
+		background-position: 0 -68px;
+
+		&:hover {
+			background-position: 0 0;
+		}
+	}
+
+	&.next {
+		right: 15px;
+		background-position: -35px -68px;
+
+		&:hover {
+			background-position: -35px 0;
+		}
+	}
+}
+
+.btn_close {
+	top: 11px;
+	right: 11px;
+	width: 21px;
+	height: 22px;
+	z-index: 100;
+	cursor: pointer;
+	position: absolute;
+	background: url("../img/sprite.png") -177px 0;
+}
+
+
+// End modal

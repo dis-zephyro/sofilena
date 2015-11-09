@@ -25,13 +25,16 @@
 // Core
 @import "components/base";
 @import "components/grid";
-@import "components/buttons";
-@import "components/forms";
 @import "components/utilities";
 @import "components/responsive-utilities";
 @import "components/responsive-embed";
 
 // Components
+@import "components/buttons";
+@import "components/forms";
+@import "components/breadcrumbs";
+@import "components/pagination";
+
 @import "../js/vendor/slick/slick";
 
 
@@ -43,6 +46,10 @@
 @import "promo";
 @import "hits";
 @import "promo-video";
+
+@import "content";
+@import "sidebar";
+@import "product";
 
 
 

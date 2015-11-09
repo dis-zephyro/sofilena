@@ -1,0 +1,65 @@
+.pageNav {
+	margin-bottom: 20px;
+
+	a {
+		height: 30px;
+		color: #2d2c27;
+		font-size: 9px;
+		line-height: 20px;
+		position: relative;
+		display: inline-block;
+		text-decoration: none;
+		text-transform: uppercase;
+		border: 1px solid #2d2c27;
+		padding: 4px 5px;
+
+		&:before {
+			top: 0;
+			color: #fff;
+			width: 29px;
+			height: 28px;
+			content: ' ';
+			position: absolute;
+			background: #2d2c27 url("../img/sprite.png") no-repeat;
+		}
+
+		&:hover {
+			color: #505050;
+			border-color: #505050;
+
+			&:before {
+				background-color: #505050;
+			}
+		}
+
+		&.pageNav__prev {
+			float: left;
+			padding-left: 35px;
+
+			&:before {
+				left: 0;
+				background-position: -147px 0;
+			}
+		}
+
+		&.pageNav__next {
+			float: right;
+			padding-right: 35px;
+
+			&:before {
+				right: 0;
+				background-position: -147px -30px;
+			}
+		}
+	}
+}
+
+@media (min-width: $screen-sm-min) {
+
+	.pageNav {
+
+		a {
+			font-size: 14px;
+		}
+	}
+}

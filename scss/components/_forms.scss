@@ -23,11 +23,6 @@
 	}
 }
 
-.red {
-
-}
-
-
 
 label {
 	font-weight: 400;
@@ -37,4 +32,21 @@ label {
 .form-group {
 	position: relative;
 	margin-bottom: 20px;
+}
+
+
+// Checkbox
+
+.icr-hidden {
+	position: absolute;
+	display: block;
+	top: 0; left: 0;
+	width: 0; height: 0;
+	overflow: hidden;
+}
+
+.icr-text {
+	cursor: pointer;
+	display: inline;
+	vertical-align: middle;
 }
