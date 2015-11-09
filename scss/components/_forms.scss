@@ -1,16 +1,15 @@
 .form-control {
 	margin: 0;
 	width: 100%;
-	color: #fff;
-	border: none;
 	outline: none;
-	font-size: 15px;
+	padding: 10px;
+	color: #7b7b7b;
+	font-size: 12px;
+	background: #fff;
 	line-height: 20px;
-	padding: 5px 0 0 0;
 	display: inline-block;
-	background: transparent;
-	border-bottom: 1px solid #fff;
-	@include placeholder(#fff);
+	@include placeholder(#7b7b7b);
+	border: 1px solid transparent;
 
 	&::-ms-clear {
 		display: none;
@@ -23,15 +22,29 @@
 	}
 }
 
+.form-group {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.form-white {
+	padding: 10px;
+	background: #fff;
+	margin-bottom: 20px;
+
+	.form-control {
+		border-color: #6a6a6a;
+	}
+
+	.form-group {
+		margin-bottom: 10px;
+	}
+}
+
 
 label {
 	font-weight: 400;
 	display: block;
-}
-
-.form-group {
-	position: relative;
-	margin-bottom: 20px;
 }
 
 
@@ -49,4 +62,162 @@ label {
 	cursor: pointer;
 	display: inline;
 	vertical-align: middle;
+}
+
+.grade {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	list-style: none;
+	border: 1px solid #7c7c7c;
+	@include border-radius(20px);
+
+	li {
+		width: 20%;
+		float: left;
+		color: #7b7b7b;
+		font-size: 10px;
+		padding: 6px 3px;
+		line-height: 20px;
+		text-align: center;
+	}
+
+	.icr-item {
+		width: 9px;
+		height: 9px;
+		cursor: pointer;
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+
+		&.type_radio {
+			border: 1px solid #6a6a6a;
+			@include border-radius(50%);
+		}
+	}
+
+	.checked {
+
+		.icr-item {
+
+			&.type_radio {
+				border: 1px solid #6a6a6a;
+				@include border-radius(50%);
+				background: #e24d1e;
+			}
+		}
+	}
+}
+
+.btn-recomend {
+
+	label {
+		float: left;
+		width: 36px;
+		height: 36px;
+		display: block;
+		color: #1d1d1d;
+		padding: 3px 0;
+		font-size: 16px;
+		line-height: 24px;
+		text-align: center;
+		background: transparent;
+		border: 1px solid #6a6a6a;
+
+		&.checked {
+			background: #bcb9bd;
+		}
+	}
+}
+
+.reviewStars {
+
+}
+
+.reviewStars {
+	margin: 0 -5px;
+	@include clearfix();
+
+	input:checked ~ label,
+	label,
+	label:hover,
+	label:hover ~ label {
+	}
+
+	input {
+		display: none;
+	}
+
+	label {
+		float: right;
+		width: 20%;
+		padding: 0 5px;
+		cursor: pointer;
+		position: relative;
+
+		.star-white {
+			display: block;
+		}
+
+		.star-red {
+			display: none;
+		}
+	}
+
+	input:checked ~ label {
+		cursor: pointer;
+		position: relative;
+
+		.star-white {
+			display: none;
+		}
+
+		.star-red {
+			display: block;
+		}
+	}
+
+	label:hover,
+	label:hover ~ label {
+
+		.star-white {
+			display: none;
+		}
+
+		.star-red {
+			display: block;
+		}
+	}
+}
+
+
+@media (min-width: $screen-sm-min) {
+
+	.form-control {
+		font-size: 16px;
+	}
+
+	.grade {
+
+		li {
+			font-size: 16px;
+		}
+	}
+}
+
+@media (min-width: $screen-md-min) {
+
+
+	.grade {
+
+		.icr-item {
+			width: 12px;
+			height: 12px;
+
+			&.type_radio {
+				border: 1px solid #6a6a6a;
+				@include border-radius(50%);
+			}
+		}
+	}
 }

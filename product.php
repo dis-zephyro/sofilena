@@ -475,15 +475,67 @@
                                 </div>
 
                                 <div  class="reply__body" id="reply__send">
-                                    <form class="reply__form">
+                                    <div class="reply__form">
                                         <div class="row">
-                                            <div class="col-sm-5 col-md-6 col-lg-5">
+                                            <div class="col-sm-6 col-md-6 col-lg-5">
                                                 <div class="form-group clearfix">
                                                     <div class="row">
                                                         <div class="col-xs-5 text-right">
                                                             <label class="reply__label"><span>*Общее впечатление:</span></label>
                                                         </div>
-                                                        <div class="col-xs-7"></div>
+                                                        <div class="col-xs-7">
+                                                            <div class="reviewStars clearfix">
+                                                                <input id="star-4" type="radio" name="reviewStars"/>
+                                                                <label for="star-4">
+                                                                    <span class="star-white">
+                                                                        <img class="img-responsive" src="img/star_white.png" alt="">
+                                                                    </span>
+                                                                    <span class="star-red">
+                                                                        <img class="img-responsive" src="img/star_red.png" alt="">
+                                                                    </span>
+                                                                </label>
+
+                                                                <input id="star-3" type="radio" name="reviewStars"/>
+                                                                <label for="star-3">
+                                                                    <span class="star-white">
+                                                                        <img class="img-responsive" src="img/star_white.png" alt="">
+                                                                    </span>
+                                                                    <span class="star-red">
+                                                                        <img class="img-responsive" src="img/star_red.png" alt="">
+                                                                    </span>
+                                                                </label>
+
+                                                                <input id="star-2" type="radio" name="reviewStars"/>
+                                                                <label for="star-2">
+                                                                    <span class="star-white">
+                                                                        <img class="img-responsive" src="img/star_white.png" alt="">
+                                                                    </span>
+                                                                    <span class="star-red">
+                                                                        <img class="img-responsive" src="img/star_red.png" alt="">
+                                                                    </span>
+                                                                </label>
+
+                                                                <input id="star-1" type="radio" name="reviewStars"/>
+                                                                <label for="star-1">
+                                                                    <span class="star-white">
+                                                                        <img class="img-responsive" src="img/star_white.png" alt="">
+                                                                    </span>
+                                                                    <span class="star-red">
+                                                                        <img class="img-responsive" src="img/star_red.png" alt="">
+                                                                    </span>
+                                                                </label>
+
+                                                                <input id="star-0" type="radio" name="reviewStars"/>
+                                                                <label for="star-0">
+                                                                    <span class="star-white">
+                                                                        <img class="img-responsive" src="img/star_white.png" alt="">
+                                                                    </span>
+                                                                    <span class="star-red">
+                                                                        <img class="img-responsive" src="img/star_red.png" alt="">
+                                                                    </span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="form-group clearfix">
@@ -515,14 +567,6 @@
                                                 <div class="form-group clearfix">
                                                     <div class="row">
                                                         <div class="col-xs-5 text-right">
-                                                            <label class="reply__label"><span>Качество:</span></label>
-                                                        </div>
-                                                        <div class="col-xs-7"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group clearfix">
-                                                    <div class="row">
-                                                        <div class="col-xs-5">
                                                             <label class="reply__label"><span>Комфорт:</span></label>
                                                         </div>
                                                         <div class="col-xs-7">
@@ -548,8 +592,8 @@
                                                 </div>
                                                 <div class="form-group clearfix">
                                                     <div class="row">
-                                                        <div class="col-xs-5">
-                                                            <label class="reply__label">Качество:</label>
+                                                        <div class="col-xs-5 text-right">
+                                                            <label class="reply__label"><span>Качество:</span></label>
                                                         </div>
                                                         <div class="col-xs-7">
                                                             <ul class="grade clearfix">
@@ -574,21 +618,21 @@
                                                 </div>
                                                 <div class="form-group clearfix">
                                                     <div class="row">
-                                                        <div class="col-xs-5">
+                                                        <div class="col-xs-5 text-right">
                                                             <label class="reply__label">Рекомендуете этот товар?</label>
                                                         </div>
                                                         <div class="col-xs-7">
-                                                            <div class="btn-recomend">
-                                                                <label class="grade__item"><input type="radio" name="grade__recomend">да</label>
-                                                                <label class="grade__item"><input type="radio" name="grade__recomend" checked>нет</label>
+                                                            <div class="btn-recomend clearfix">
+                                                                <label><input type="radio" name="grade__recomend" checked>да</label>
+                                                                <label><input type="radio" name="grade__recomend">нет</label>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-5 col-md-6 col-lg-5">
+                                            <div class="col-sm-6 col-md-6 col-lg-7">
                                                 <div class="form-group">
-                                                    <textarea class="form-control" placeholder="Опишите подробнее ваши впечатления о товаре. "></textarea>
+                                                    <textarea class="form-control" rows="4" placeholder="Опишите подробнее ваши впечатления о товаре."></textarea>
                                                 </div>
                                                 <div class="form-group">
                                                     <div class="row">
@@ -603,7 +647,7 @@
                                                 <div class="form-white">
                                                     <div class="form-group clearfix">
                                                         <div class="row">
-                                                            <div class="col-xs-7">
+                                                            <div class="col-xs-7 text-right">
                                                                 <label class="reply__label"><span>Размер:</span></label>
                                                             </div>
                                                             <div class="col-xs-5">
@@ -613,8 +657,8 @@
                                                     </div>
                                                     <div class="form-group clearfix">
                                                         <div class="row">
-                                                            <div class="col-xs-7">
-                                                                <label class="reply__label"><span>Размер:</span></label>
+                                                            <div class="col-xs-7 text-right">
+                                                                <label class="reply__label"><span>Идеально подходит::</span></label>
                                                             </div>
                                                             <div class="col-xs-5">
                                                                 <input type="text" class="form-control" placeholder="">
@@ -627,10 +671,10 @@
                                         <div class="send-box">
                                             <button type="submit" class="btn">отправить отзыв</button>
                                         </div>
-                                    </form>
+                                    </div>
                                 </div>
 
-                                <div  class="reply__body" id="reply__help">
+                                <div  class="reply__body reply__help" id="reply__help">
                                     <h4>Правила оформления комментариев, вопросов и отзывов</h4>
                                     <ul class="unstyle">
                                         <li>Добавление всех комментариев и отзывов происходит сразу после модерации.</li>

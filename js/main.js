@@ -249,3 +249,6 @@ jQuery(function($){
 });
 
 $('.reply').tabs();
+
+$(".grade input[type='radio']").ionCheckRadio();
+$(".btn-recomend input[type='radio']").ionCheckRadio();

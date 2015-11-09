@@ -346,6 +346,8 @@
 .product__hits {
 	background: #f5f5f5;
 	padding: 0 20px 20px 20px;
+
+
 }
 
 .reply {
@@ -391,7 +393,7 @@
 
 	.reply__item {
 		font-size: 12px;
-		padding: 8px 5px;
+		padding: 20px 10px;
 		background: #efefef;
 		margin-bottom: 20px;
 
@@ -514,6 +516,34 @@
 			}
 		}
 	}
+
+	.reply__form {
+		padding: 10px;
+		background: #efefef;
+
+		.reply__label {
+			width: 100%;
+			display: table;
+			line-height: 1;
+			font-size: 12px;
+			font-weight: 400;
+
+			span {
+				height: 36px;
+				display: table-cell;
+				vertical-align: middle;
+			}
+		}
+
+		.send-box {
+			text-align: center;
+		}
+	}
+
+	.reply__help {
+		padding: 20px;
+		background: #f3f3f3;
+	}
 }
 
 @media (max-width: $screen-xs-min) {
@@ -573,6 +603,28 @@
 		}
 	}
 
+	.product__hits {
+
+		.promoSlider {
+
+			.promoSlider__item {
+				margin: 0 3px;
+			}
+
+			.slide-nav {
+
+				&.prev {
+					left: 0;
+				}
+
+				&.next {
+					right: 0;
+				}
+			}
+		}
+
+	}
+
 	.reply {
 		font-size: 18px;
 		margin-bottom: 20px;
@@ -580,7 +632,11 @@
 		.reply__nav {
 
 			> li {
-				width: 33.33%;
+				width: 30%;
+
+				&:last-child {
+					width: 40%;
+				}
 			}
 		}
 
@@ -594,6 +650,18 @@
 				line-height: 20px;
 				margin-bottom: 20px;
 				text-align: center;
+			}
+		}
+
+		.reply__form {
+			padding: 30px 20px;
+
+			.reply__label {
+				font-size: 16px;
+			}
+
+			.send-box {
+				text-align: right;
 			}
 		}
 	}
