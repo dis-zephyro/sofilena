@@ -102,7 +102,7 @@
 
 
 		.btn-nav {
-			width: 24px;
+			width: 20px;
 			float: left;
 			font-size: 0;
 			line-height: 0;
@@ -110,10 +110,10 @@
 			cursor: pointer;
 			padding-top: 3px;
 			padding-bottom: 1px;
-			margin-right: 5px;
+			margin-right: 3px;
 
 			.btn-nav-line {
-				width: 24px;
+				width: 20px;
 				height: 3px;
 				display: block;
 				background: #fff;
@@ -275,13 +275,11 @@
 
 		.header__basket {
 			display: inline-block;
-			color: #fff;
 			height: 24px;
-			font-size: 12px;
 			cursor: pointer;
-			line-height: 12px;
 			padding-left: 22px;
 			position: relative;
+
 
 			&:before {
 				left: 0;
@@ -294,7 +292,14 @@
 				background: url("../img/sprite.png") 0 -60px no-repeat;
 			}
 
+			.basket-number {
+				color: #fff;
+				font-size: 12px;
+				line-height: 12px;
+			}
+
 			.basket-value {
+				color: #fff;
 				display: block;
 				font-size: 10px;
 			}
@@ -305,6 +310,18 @@
 
 				&:before {
 					background-position: -20px -60px;
+				}
+
+				.basket-number {
+					color: #919191;
+				}
+
+				.basket-value {
+					color: #919191;
+				}
+
+				.miniBasket {
+					display: block;
 				}
 			}
 		}
@@ -437,6 +454,76 @@
 				border: 1px solid #b3b3b5;
 				border-left: none;
 				background: url("../img/header_bottom_arrow.png") center no-repeat;
+			}
+		}
+	}
+
+	.miniBasket {
+		top: 100%;
+		right: 10px;
+		z-index: 999;
+		width: 224px;
+		display: none;
+		background: #fff;
+		position: absolute;
+		border: 1px solid #303030;
+
+		.miniBasket__inner {
+			margin: 3px 0;
+			padding: 20px 0;
+			position: relative;
+		}
+
+		.miniBasket__body {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+
+			li {
+				color: #000;
+				padding: 10px;
+				font-size: 12px;
+				&:nth-child(even){
+					background: #f1f1f1;
+				}
+			}
+		}
+
+		.miniBasket__left {
+			float: left;
+			width: 60px;
+			text-align: center;
+		}
+
+
+		.miniBasket__right {
+			margin-left: 70px;
+		}
+
+		.miniBasket__size {
+			margin-bottom: 4px;
+		}
+
+		.miniBasket__price_old {
+			color: #606060;
+			text-decoration: line-through;
+		}
+
+		.miniBasket__price {
+			font-size: 16px;
+		}
+
+		.miniBasket__buy {
+			padding-top: 15px;
+			padding-bottom: 10px;
+			margin: 0 10px;
+			border-top: 1px solid #c6c6c6;
+
+			.miniBasket__summary {
+				color: #363636;
+				font-size: 18px;
+				padding-top: 5px;
+				margin-bottom: 10px;
 			}
 		}
 	}

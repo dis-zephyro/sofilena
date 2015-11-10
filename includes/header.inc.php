@@ -118,13 +118,72 @@
                     </li>
                 </ul>
                 <div class="header__basket">
-                    <span class="hidden-xs">3 товара <span class="basket-value">(12 000руб.)</span></span>
+                    <span class="hidden-xs">
+                        <span class="basket-number"> 3 товара </span>
+                        <span class="basket-value">(12 000руб.)</span>
+                    </span>
                 </div>
                 <span class="header__search-toddle" id="header__search-toddle"></span>
             </nav>
             <div class="header__search">
                 <input class="header__search_input" name="search" type="text">
                 <button class="btn-header-search"></button>
+            </div>
+
+
+            <!-- Basket -->
+            <div class="miniBasket">
+                <div class="miniBasket__inner">
+                    <ul class="miniBasket__body">
+                        <li class="clearfix">
+                            <div class="miniBasket__left">
+                                <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                <span class="miniBasket__num">1 шт</span>
+                            </div>
+                            <div class="miniBasket__right">
+                                <div class="miniBasket__name">Платье 19660</div>
+                                <div class="miniBasket__size">Размер: 44</div>
+                                <div class="miniBasket__price_old">4 000 руб.</div>
+                                <div class="miniBasket__price">3 000 руб.</div>
+                            </div>
+                        </li>
+
+                        <li class="clearfix">
+                            <div class="miniBasket__left">
+                                <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                <span class="miniBasket__num">1 шт</span>
+                            </div>
+                            <div class="miniBasket__right">
+                                <div class="miniBasket__name">Платье 19660</div>
+                                <div class="miniBasket__size">Размер: 44</div>
+                                <div class="miniBasket__price_old">4 000 руб.</div>
+                                <div class="miniBasket__price">3 000 руб.</div>
+                            </div>
+                        </li>
+
+
+                        <li class="clearfix">
+                            <div class="miniBasket__left">
+                                <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                <span class="miniBasket__num">1 шт</span>
+                            </div>
+                            <div class="miniBasket__right">
+                                <div class="miniBasket__name">Платье 19660</div>
+                                <div class="miniBasket__size">Размер: 44</div>
+                                <div class="miniBasket__price_old">4 000 руб.</div>
+                                <div class="miniBasket__price">3 000 руб.</div>
+                            </div>
+                        </li>
+                    </ul>
+                    <span class="vertical-nav prev"></span>
+                    <span class="vertical-nav next"></span>
+                </div>
+                <div class="miniBasket__buy clearfix">
+                    <span>Итого со скидкой:</span>
+                    <div class="miniBasket__summary">12 000 руб.</div>
+                    <button type="submit" class="btn btn-xs pull-left">в корзину</button>
+                    <button type="reset" class="btn-clear pull-right"></button>
+                </div>
             </div>
         </div>
     </div>

@@ -19,6 +19,27 @@
 }
 
 
+.vertical-nav {
+	left: 50%;
+	width: 37px;
+	height: 16px;
+	cursor: pointer;
+	margin-left: -19px;
+	position: absolute;
+	background: url("../img/sprite.png") no-repeat;
+
+	&.prev {
+		top: 0;
+		background-position: -110px -42px;
+	}
+
+	&.next {
+		bottom: 0;
+		background-position: -110px -58px;
+	}
+}
+
+
 @media (min-width: $screen-md-min) {
 
 	.page {

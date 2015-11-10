@@ -101,16 +101,64 @@
                         <!-- Catalog -->
                         <div class="showcase">
                             <div class="row">
+
                                 <div class="col-xs-6 col-sm-3 col-md-4 col-lg-3">
                                     <div class="showcase__item">
                                         <div class="showcase__image">
                                             <span class="showcase__sale showcase__sale30">30%</span>
                                             <img src="images/product_promo_02.jpg" alt="">
-                                            <a href="#" class="showcase__link"><span>быстрый просмотр</span></a>
                                         </div>
                                         <div class="showcase__name">Платье 19660</div>
                                         <div class="showcase__price">
                                             <span class="showcase__price_new">от 1 000 до 3 000 руб.</span>
+                                        </div>
+
+                                        <div class="showcase__view">
+                                            <ul class="showcase_thumb">
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="showcase__image">
+                                                <span class="showcase__sale showcase__sale30">30%</span>
+                                                <img src="images/product_promo_02.jpg" alt="">
+                                                <a rel="gallery1" href="images/product_image01_large.jpg" class="showcase__link btn-modal"><span>быстрый просмотр</span></a>
+                                            </div>
+                                            <div class="showcase__name">Платье 19660</div>
+
+                                            <div class="showcase__price">
+                                                <span class="showcase__price_new">от 1 000 до 3 000 руб.</span>
+                                            </div>
+                                            
+                                            <div class="showcase__fast">
+                                                <div class="showcase__fast_title">Выберите размеры:</div>
+                                                <ul class="showcase__size clearfix">
+                                                    <li><label><input type="radio" name="size">48</label></li>
+                                                    <li><label><input type="radio" name="size">50</label></li>
+                                                    <li><label><input type="radio" name="size" checked>52</label></li>
+                                                    <li><label><input type="radio" name="size">54</label></li>
+                                                    <li><label><input type="radio" name="size">56</label></li>
+                                                    <li><label><input type="radio" name="size">58</label></li>
+                                                </ul>
+                                                <button class="btn btn-purchase">В корзину</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -118,28 +166,125 @@
                                 <div class="col-xs-6 col-sm-3 col-md-4 col-lg-3">
                                     <div class="showcase__item">
                                         <div class="showcase__image">
-                                            <span class="showcase__sale">sale</span>
+                                            <span class="showcase__sale showcase__sale">sale</span>
                                             <img src="images/product_promo_02.jpg" alt="">
-                                            <a href="#" class="showcase__link"><span>быстрый просмотр</span></a>
                                         </div>
                                         <div class="showcase__name">Платье 19660</div>
                                         <div class="showcase__price">
                                             <span class="showcase__price_old">3 000 руб.</span>
                                             <span class="showcase__price_new">1 000руб.</span>
                                         </div>
+
+                                        <div class="showcase__view">
+                                            <ul class="showcase_thumb">
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="showcase__image">
+                                                <span class="showcase__sale showcase__sale">sale</span>
+                                                <img src="images/product_promo_02.jpg" alt="">
+                                                <a rel="gallery1" href="images/product_image01_large.jpg" class="showcase__link btn-modal"><span>быстрый просмотр</span></a>
+                                            </div>
+                                            <div class="showcase__name">Платье 19660</div>
+
+                                            <div class="showcase__price">
+                                                <span class="showcase__price_old">3 000 руб.</span>
+                                                <span class="showcase__price_new">1 000руб.</span>
+                                            </div>
+
+                                            <div class="showcase__fast">
+                                                <div class="showcase__fast_title">Выберите размеры:</div>
+                                                <ul class="showcase__size clearfix">
+                                                    <li><label><input type="radio" name="size">48</label></li>
+                                                    <li><label><input type="radio" name="size">50</label></li>
+                                                    <li><label><input type="radio" name="size" checked>52</label></li>
+                                                    <li><label><input type="radio" name="size">54</label></li>
+                                                    <li><label><input type="radio" name="size">56</label></li>
+                                                    <li><label><input type="radio" name="size">58</label></li>
+                                                </ul>
+                                                <button class="btn btn-purchase">В корзину</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="col-xs-6 col-sm-3 col-md-4 col-lg-3">
                                     <div class="showcase__item">
                                         <div class="showcase__image">
-                                            <span class="showcase__sale showcase__sale10">10%</span>
+                                            <span class="showcase__sale showcase__sale20">20%</span>
                                             <img src="images/product_promo_02.jpg" alt="">
-                                            <a href="#" class="showcase__link"><span>быстрый просмотр</span></a>
                                         </div>
                                         <div class="showcase__name">Платье 19660</div>
                                         <div class="showcase__price">
-                                            <span class="showcase__price_new">от 1 000 до 3 000 руб.</span>
+                                            <span class="showcase__price_old">3 000 руб.</span>
+                                            <span class="showcase__price_new">1 000руб.</span>
+                                        </div>
+
+                                        <div class="showcase__view">
+                                            <ul class="showcase_thumb">
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="showcase__image">
+                                                <span class="showcase__sale showcase__sale20">20%</span>
+                                                <img src="images/product_promo_02.jpg" alt="">
+                                                <a rel="gallery1" href="images/product_image01_large.jpg" class="showcase__link btn-modal"><span>быстрый просмотр</span></a>
+                                            </div>
+                                            <div class="showcase__name">Платье 19660</div>
+
+                                            <div class="showcase__price">
+                                                <span class="showcase__price_old">3 000 руб.</span>
+                                                <span class="showcase__price_new">1 000руб.</span>
+                                            </div>
+
+                                            <div class="showcase__fast">
+                                                <div class="showcase__fast_title">Выберите размеры:</div>
+                                                <ul class="showcase__size clearfix">
+                                                    <li><label><input type="radio" name="size">48</label></li>
+                                                    <li><label><input type="radio" name="size">50</label></li>
+                                                    <li><label><input type="radio" name="size" checked>52</label></li>
+                                                    <li><label><input type="radio" name="size">54</label></li>
+                                                    <li><label><input type="radio" name="size">56</label></li>
+                                                    <li><label><input type="radio" name="size">58</label></li>
+                                                </ul>
+                                                <button class="btn btn-purchase">В корзину</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -149,11 +294,60 @@
                                         <div class="showcase__image">
                                             <span class="showcase__sale showcase__new">new</span>
                                             <img src="images/product_promo_02.jpg" alt="">
-                                            <a href="#" class="showcase__link"><span>быстрый просмотр</span></a>
                                         </div>
                                         <div class="showcase__name">Платье 19660</div>
                                         <div class="showcase__price">
-                                            <span class="showcase__price_new">от 1 000 до 3 000 руб.</span>
+                                            <span class="showcase__price_old">3 000 руб.</span>
+                                            <span class="showcase__price_new">1 000руб.</span>
+                                        </div>
+
+                                        <div class="showcase__view">
+                                            <ul class="showcase_thumb">
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="showcase__image">
+                                                <span class="showcase__sale showcase__new">new</span>
+                                                <img src="images/product_promo_02.jpg" alt="">
+                                                <a rel="gallery1" href="images/product_image01_large.jpg" class="showcase__link btn-modal"><span>быстрый просмотр</span></a>
+                                            </div>
+                                            <div class="showcase__name">Платье 19660</div>
+
+                                            <div class="showcase__price">
+                                                <span class="showcase__price_old">3 000 руб.</span>
+                                                <span class="showcase__price_new">1 000руб.</span>
+                                            </div>
+
+                                            <div class="showcase__fast">
+                                                <div class="showcase__fast_title">Выберите размеры:</div>
+                                                <ul class="showcase__size clearfix">
+                                                    <li><label><input type="radio" name="size">48</label></li>
+                                                    <li><label><input type="radio" name="size">50</label></li>
+                                                    <li><label><input type="radio" name="size" checked>52</label></li>
+                                                    <li><label><input type="radio" name="size">54</label></li>
+                                                    <li><label><input type="radio" name="size">56</label></li>
+                                                    <li><label><input type="radio" name="size">58</label></li>
+                                                </ul>
+                                                <button class="btn btn-purchase">В корзину</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -163,26 +357,60 @@
                                         <div class="showcase__image">
                                             <span class="showcase__sale showcase__sale30">30%</span>
                                             <img src="images/product_promo_02.jpg" alt="">
-                                            <a href="#" class="showcase__link"><span>быстрый просмотр</span></a>
-                                        </div>
-                                        <div class="showcase__name">Платье 19660</div>
-                                        <div class="showcase__price">
-                                            <span class="showcase__price_new">от 1 000 до 3 000 руб.</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-6 col-sm-3 col-md-4 col-lg-3">
-                                    <div class="showcase__item">
-                                        <div class="showcase__image">
-                                            <span class="showcase__sale">sale</span>
-                                            <img src="images/product_promo_02.jpg" alt="">
-                                            <a href="#" class="showcase__link"><span>быстрый просмотр</span></a>
                                         </div>
                                         <div class="showcase__name">Платье 19660</div>
                                         <div class="showcase__price">
                                             <span class="showcase__price_old">3 000 руб.</span>
                                             <span class="showcase__price_new">1 000руб.</span>
+                                        </div>
+
+                                        <div class="showcase__view">
+                                            <ul class="showcase_thumb">
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="showcase__image">
+                                                <span class="showcase__sale showcase__sale30">30%</span>
+                                                <img src="images/product_promo_02.jpg" alt="">
+                                                <a rel="gallery1" href="images/product_image01_large.jpg" class="showcase__link btn-modal"><span>быстрый просмотр</span></a>
+                                            </div>
+                                            <div class="showcase__name">Платье 19660</div>
+
+                                            <div class="showcase__price">
+                                                <span class="showcase__price_old">3 000 руб.</span>
+                                                <span class="showcase__price_new">1 000руб.</span>
+                                            </div>
+
+                                            <div class="showcase__fast">
+                                                <div class="showcase__fast_title">Выберите размеры:</div>
+                                                <ul class="showcase__size clearfix">
+                                                    <li><label><input type="radio" name="size">48</label></li>
+                                                    <li><label><input type="radio" name="size">50</label></li>
+                                                    <li><label><input type="radio" name="size" checked>52</label></li>
+                                                    <li><label><input type="radio" name="size">54</label></li>
+                                                    <li><label><input type="radio" name="size">56</label></li>
+                                                    <li><label><input type="radio" name="size">58</label></li>
+                                                </ul>
+                                                <button class="btn btn-purchase">В корзину</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -192,26 +420,60 @@
                                         <div class="showcase__image">
                                             <span class="showcase__sale showcase__sale30">30%</span>
                                             <img src="images/product_promo_02.jpg" alt="">
-                                            <a href="#" class="showcase__link"><span>быстрый просмотр</span></a>
-                                        </div>
-                                        <div class="showcase__name">Платье 19660</div>
-                                        <div class="showcase__price">
-                                            <span class="showcase__price_new">от 1 000 до 3 000 руб.</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-6 col-sm-3 col-md-4 col-lg-3">
-                                    <div class="showcase__item">
-                                        <div class="showcase__image">
-                                            <span class="showcase__sale">sale</span>
-                                            <img src="images/product_promo_02.jpg" alt="">
-                                            <a href="#" class="showcase__link"><span>быстрый просмотр</span></a>
                                         </div>
                                         <div class="showcase__name">Платье 19660</div>
                                         <div class="showcase__price">
                                             <span class="showcase__price_old">3 000 руб.</span>
                                             <span class="showcase__price_new">1 000руб.</span>
+                                        </div>
+
+                                        <div class="showcase__view">
+                                            <ul class="showcase_thumb">
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="showcase__image">
+                                                <span class="showcase__sale showcase__sale30">30%</span>
+                                                <img src="images/product_promo_02.jpg" alt="">
+                                                <a rel="gallery1" href="images/product_image01_large.jpg" class="showcase__link btn-modal"><span>быстрый просмотр</span></a>
+                                            </div>
+                                            <div class="showcase__name">Платье 19660</div>
+
+                                            <div class="showcase__price">
+                                                <span class="showcase__price_old">3 000 руб.</span>
+                                                <span class="showcase__price_new">1 000руб.</span>
+                                            </div>
+
+                                            <div class="showcase__fast">
+                                                <div class="showcase__fast_title">Выберите размеры:</div>
+                                                <ul class="showcase__size clearfix">
+                                                    <li><label><input type="radio" name="size">48</label></li>
+                                                    <li><label><input type="radio" name="size">50</label></li>
+                                                    <li><label><input type="radio" name="size" checked>52</label></li>
+                                                    <li><label><input type="radio" name="size">54</label></li>
+                                                    <li><label><input type="radio" name="size">56</label></li>
+                                                    <li><label><input type="radio" name="size">58</label></li>
+                                                </ul>
+                                                <button class="btn btn-purchase">В корзину</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -221,26 +483,60 @@
                                         <div class="showcase__image">
                                             <span class="showcase__sale showcase__sale30">30%</span>
                                             <img src="images/product_promo_02.jpg" alt="">
-                                            <a href="#" class="showcase__link"><span>быстрый просмотр</span></a>
-                                        </div>
-                                        <div class="showcase__name">Платье 19660</div>
-                                        <div class="showcase__price">
-                                            <span class="showcase__price_new">от 1 000 до 3 000 руб.</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-6 col-sm-3 col-md-4 col-lg-3">
-                                    <div class="showcase__item">
-                                        <div class="showcase__image">
-                                            <span class="showcase__sale">sale</span>
-                                            <img src="images/product_promo_02.jpg" alt="">
-                                            <a href="#" class="showcase__link"><span>быстрый просмотр</span></a>
                                         </div>
                                         <div class="showcase__name">Платье 19660</div>
                                         <div class="showcase__price">
                                             <span class="showcase__price_old">3 000 руб.</span>
                                             <span class="showcase__price_new">1 000руб.</span>
+                                        </div>
+
+                                        <div class="showcase__view">
+                                            <ul class="showcase_thumb">
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="showcase__image">
+                                                <span class="showcase__sale showcase__sale30">30%</span>
+                                                <img src="images/product_promo_02.jpg" alt="">
+                                                <a rel="gallery1" href="images/product_image01_large.jpg" class="showcase__link btn-modal"><span>быстрый просмотр</span></a>
+                                            </div>
+                                            <div class="showcase__name">Платье 19660</div>
+
+                                            <div class="showcase__price">
+                                                <span class="showcase__price_old">3 000 руб.</span>
+                                                <span class="showcase__price_new">1 000руб.</span>
+                                            </div>
+
+                                            <div class="showcase__fast">
+                                                <div class="showcase__fast_title">Выберите размеры:</div>
+                                                <ul class="showcase__size clearfix">
+                                                    <li><label><input type="radio" name="size">48</label></li>
+                                                    <li><label><input type="radio" name="size">50</label></li>
+                                                    <li><label><input type="radio" name="size" checked>52</label></li>
+                                                    <li><label><input type="radio" name="size">54</label></li>
+                                                    <li><label><input type="radio" name="size">56</label></li>
+                                                    <li><label><input type="radio" name="size">58</label></li>
+                                                </ul>
+                                                <button class="btn btn-purchase">В корзину</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -250,11 +546,60 @@
                                         <div class="showcase__image">
                                             <span class="showcase__sale showcase__sale30">30%</span>
                                             <img src="images/product_promo_02.jpg" alt="">
-                                            <a href="#" class="showcase__link"><span>быстрый просмотр</span></a>
                                         </div>
                                         <div class="showcase__name">Платье 19660</div>
                                         <div class="showcase__price">
-                                            <span class="showcase__price_new">от 1 000 до 3 000 руб.</span>
+                                            <span class="showcase__price_old">3 000 руб.</span>
+                                            <span class="showcase__price_new">1 000руб.</span>
+                                        </div>
+
+                                        <div class="showcase__view">
+                                            <ul class="showcase_thumb">
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="showcase__image">
+                                                <span class="showcase__sale showcase__sale30">30%</span>
+                                                <img src="images/product_promo_02.jpg" alt="">
+                                                <a rel="gallery1" href="images/product_image01_large.jpg" class="showcase__link btn-modal"><span>быстрый просмотр</span></a>
+                                            </div>
+                                            <div class="showcase__name">Платье 19660</div>
+
+                                            <div class="showcase__price">
+                                                <span class="showcase__price_old">3 000 руб.</span>
+                                                <span class="showcase__price_new">1 000руб.</span>
+                                            </div>
+
+                                            <div class="showcase__fast">
+                                                <div class="showcase__fast_title">Выберите размеры:</div>
+                                                <ul class="showcase__size clearfix">
+                                                    <li><label><input type="radio" name="size">48</label></li>
+                                                    <li><label><input type="radio" name="size">50</label></li>
+                                                    <li><label><input type="radio" name="size" checked>52</label></li>
+                                                    <li><label><input type="radio" name="size">54</label></li>
+                                                    <li><label><input type="radio" name="size">56</label></li>
+                                                    <li><label><input type="radio" name="size">58</label></li>
+                                                </ul>
+                                                <button class="btn btn-purchase">В корзину</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -262,18 +607,317 @@
                                 <div class="col-xs-6 col-sm-3 col-md-4 col-lg-3">
                                     <div class="showcase__item">
                                         <div class="showcase__image">
-                                            <span class="showcase__sale">sale</span>
+                                            <span class="showcase__sale showcase__sale30">30%</span>
                                             <img src="images/product_promo_02.jpg" alt="">
-                                            <a href="#" class="showcase__link"><span>быстрый просмотр</span></a>
                                         </div>
                                         <div class="showcase__name">Платье 19660</div>
                                         <div class="showcase__price">
                                             <span class="showcase__price_old">3 000 руб.</span>
                                             <span class="showcase__price_new">1 000руб.</span>
                                         </div>
+
+                                        <div class="showcase__view">
+                                            <ul class="showcase_thumb">
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="showcase__image">
+                                                <span class="showcase__sale showcase__sale30">30%</span>
+                                                <img src="images/product_promo_02.jpg" alt="">
+                                                <a rel="gallery1" href="images/product_image01_large.jpg" class="showcase__link btn-modal"><span>быстрый просмотр</span></a>
+                                            </div>
+                                            <div class="showcase__name">Платье 19660</div>
+
+                                            <div class="showcase__price">
+                                                <span class="showcase__price_old">3 000 руб.</span>
+                                                <span class="showcase__price_new">1 000руб.</span>
+                                            </div>
+
+                                            <div class="showcase__fast">
+                                                <div class="showcase__fast_title">Выберите размеры:</div>
+                                                <ul class="showcase__size clearfix">
+                                                    <li><label><input type="radio" name="size">48</label></li>
+                                                    <li><label><input type="radio" name="size">50</label></li>
+                                                    <li><label><input type="radio" name="size" checked>52</label></li>
+                                                    <li><label><input type="radio" name="size">54</label></li>
+                                                    <li><label><input type="radio" name="size">56</label></li>
+                                                    <li><label><input type="radio" name="size">58</label></li>
+                                                </ul>
+                                                <button class="btn btn-purchase">В корзину</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
+                                <div class="col-xs-6 col-sm-3 col-md-4 col-lg-3">
+                                    <div class="showcase__item">
+                                        <div class="showcase__image">
+                                            <span class="showcase__sale showcase__sale30">30%</span>
+                                            <img src="images/product_promo_02.jpg" alt="">
+                                        </div>
+                                        <div class="showcase__name">Платье 19660</div>
+                                        <div class="showcase__price">
+                                            <span class="showcase__price_old">3 000 руб.</span>
+                                            <span class="showcase__price_new">1 000руб.</span>
+                                        </div>
+
+                                        <div class="showcase__view">
+                                            <ul class="showcase_thumb">
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="showcase__image">
+                                                <span class="showcase__sale showcase__sale30">30%</span>
+                                                <img src="images/product_promo_02.jpg" alt="">
+                                                <a rel="gallery1" href="images/product_image01_large.jpg" class="showcase__link btn-modal"><span>быстрый просмотр</span></a>
+                                            </div>
+                                            <div class="showcase__name">Платье 19660</div>
+
+                                            <div class="showcase__price">
+                                                <span class="showcase__price_old">3 000 руб.</span>
+                                                <span class="showcase__price_new">1 000руб.</span>
+                                            </div>
+
+                                            <div class="showcase__fast">
+                                                <div class="showcase__fast_title">Выберите размеры:</div>
+                                                <ul class="showcase__size clearfix">
+                                                    <li><label><input type="radio" name="size">48</label></li>
+                                                    <li><label><input type="radio" name="size">50</label></li>
+                                                    <li><label><input type="radio" name="size" checked>52</label></li>
+                                                    <li><label><input type="radio" name="size">54</label></li>
+                                                    <li><label><input type="radio" name="size">56</label></li>
+                                                    <li><label><input type="radio" name="size">58</label></li>
+                                                </ul>
+                                                <button class="btn btn-purchase">В корзину</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-6 col-sm-3 col-md-4 col-lg-3">
+                                    <div class="showcase__item">
+                                        <div class="showcase__image">
+                                            <span class="showcase__sale showcase__sale30">30%</span>
+                                            <img src="images/product_promo_02.jpg" alt="">
+                                        </div>
+                                        <div class="showcase__name">Платье 19660</div>
+                                        <div class="showcase__price">
+                                            <span class="showcase__price_old">3 000 руб.</span>
+                                            <span class="showcase__price_new">1 000руб.</span>
+                                        </div>
+
+                                        <div class="showcase__view">
+                                            <ul class="showcase_thumb">
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="showcase__image">
+                                                <span class="showcase__sale showcase__sale30">30%</span>
+                                                <img src="images/product_promo_02.jpg" alt="">
+                                                <a rel="gallery1" href="images/product_image01_large.jpg" class="showcase__link btn-modal"><span>быстрый просмотр</span></a>
+                                            </div>
+                                            <div class="showcase__name">Платье 19660</div>
+
+                                            <div class="showcase__price">
+                                                <span class="showcase__price_old">3 000 руб.</span>
+                                                <span class="showcase__price_new">1 000руб.</span>
+                                            </div>
+
+                                            <div class="showcase__fast">
+                                                <div class="showcase__fast_title">Выберите размеры:</div>
+                                                <ul class="showcase__size clearfix">
+                                                    <li><label><input type="radio" name="size">48</label></li>
+                                                    <li><label><input type="radio" name="size">50</label></li>
+                                                    <li><label><input type="radio" name="size" checked>52</label></li>
+                                                    <li><label><input type="radio" name="size">54</label></li>
+                                                    <li><label><input type="radio" name="size">56</label></li>
+                                                    <li><label><input type="radio" name="size">58</label></li>
+                                                </ul>
+                                                <button class="btn btn-purchase">В корзину</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-6 col-sm-3 col-md-4 col-lg-3">
+                                    <div class="showcase__item">
+                                        <div class="showcase__image">
+                                            <span class="showcase__sale showcase__sale30">30%</span>
+                                            <img src="images/product_promo_02.jpg" alt="">
+                                        </div>
+                                        <div class="showcase__name">Платье 19660</div>
+                                        <div class="showcase__price">
+                                            <span class="showcase__price_old">3 000 руб.</span>
+                                            <span class="showcase__price_new">1 000руб.</span>
+                                        </div>
+
+                                        <div class="showcase__view">
+                                            <ul class="showcase_thumb">
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="showcase__image">
+                                                <span class="showcase__sale showcase__sale30">30%</span>
+                                                <img src="images/product_promo_02.jpg" alt="">
+                                                <a rel="gallery1" href="images/product_image01_large.jpg" class="showcase__link btn-modal"><span>быстрый просмотр</span></a>
+                                            </div>
+                                            <div class="showcase__name">Платье 19660</div>
+
+                                            <div class="showcase__price">
+                                                <span class="showcase__price_old">3 000 руб.</span>
+                                                <span class="showcase__price_new">1 000руб.</span>
+                                            </div>
+
+                                            <div class="showcase__fast">
+                                                <div class="showcase__fast_title">Выберите размеры:</div>
+                                                <ul class="showcase__size clearfix">
+                                                    <li><label><input type="radio" name="size">48</label></li>
+                                                    <li><label><input type="radio" name="size">50</label></li>
+                                                    <li><label><input type="radio" name="size" checked>52</label></li>
+                                                    <li><label><input type="radio" name="size">54</label></li>
+                                                    <li><label><input type="radio" name="size">56</label></li>
+                                                    <li><label><input type="radio" name="size">58</label></li>
+                                                </ul>
+                                                <button class="btn btn-purchase">В корзину</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-6 col-sm-3 col-md-4 col-lg-3">
+                                    <div class="showcase__item">
+                                        <div class="showcase__image">
+                                            <span class="showcase__sale showcase__sale30">30%</span>
+                                            <img src="images/product_promo_02.jpg" alt="">
+                                        </div>
+                                        <div class="showcase__name">Платье 19660</div>
+                                        <div class="showcase__price">
+                                            <span class="showcase__price_old">3 000 руб.</span>
+                                            <span class="showcase__price_new">1 000руб.</span>
+                                        </div>
+
+                                        <div class="showcase__view">
+                                            <ul class="showcase_thumb">
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a rel="gallery1" class="btn-modal" href="images/product_image01_large.jpg">
+                                                        <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="showcase__image">
+                                                <span class="showcase__sale showcase__sale30">30%</span>
+                                                <img src="images/product_promo_02.jpg" alt="">
+                                                <a rel="gallery1" href="images/product_image01_large.jpg" class="showcase__link btn-modal"><span>быстрый просмотр</span></a>
+                                            </div>
+                                            <div class="showcase__name">Платье 19660</div>
+
+                                            <div class="showcase__price">
+                                                <span class="showcase__price_old">3 000 руб.</span>
+                                                <span class="showcase__price_new">1 000руб.</span>
+                                            </div>
+
+                                            <div class="showcase__fast">
+                                                <div class="showcase__fast_title">Выберите размеры:</div>
+                                                <ul class="showcase__size clearfix">
+                                                    <li><label><input type="radio" name="size">48</label></li>
+                                                    <li><label><input type="radio" name="size">50</label></li>
+                                                    <li><label><input type="radio" name="size" checked>52</label></li>
+                                                    <li><label><input type="radio" name="size">54</label></li>
+                                                    <li><label><input type="radio" name="size">56</label></li>
+                                                    <li><label><input type="radio" name="size">58</label></li>
+                                                </ul>
+                                                <button class="btn btn-purchase">В корзину</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="text-center">

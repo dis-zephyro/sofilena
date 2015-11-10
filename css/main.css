@@ -3261,7 +3261,7 @@ p {
   font-size: 13px; }
   @media (min-width: 768px) {
     .btn-purchase {
-      font-size: 18px;
+      font-size: 16px;
       padding-left: 65px; }
       .btn-purchase:before {
         top: 50%;
@@ -3283,9 +3283,20 @@ p {
     text-decoration: none;
     border-color: #262626; }
 
+.btn-xs {
+  font-size: 12px;
+  padding: 2px 10px; }
+
 .btn-mini {
   font-size: 11px;
   padding: 3px 5px; }
+
+.btn-clear {
+  width: 22px;
+  height: 22px;
+  border: none;
+  outline: none;
+  background: transparent url("../img/sprite.png") -177px 0; }
 
 @media (min-width: 768px) {
   .btn-mini {
@@ -3732,7 +3743,7 @@ label {
       .header .primaryNav > ul > li.active a {
         color: #e24d1e; }
   .header .primaryNav .btn-nav {
-    width: 24px;
+    width: 20px;
     float: left;
     font-size: 0;
     line-height: 0;
@@ -3740,9 +3751,9 @@ label {
     cursor: pointer;
     padding-top: 3px;
     padding-bottom: 1px;
-    margin-right: 5px; }
+    margin-right: 3px; }
     .header .primaryNav .btn-nav .btn-nav-line {
-      width: 24px;
+      width: 20px;
       height: 3px;
       display: block;
       background: #fff;
@@ -3834,11 +3845,8 @@ label {
         background-position: -20px -40px; }
   .header .support-bar .header__basket {
     display: inline-block;
-    color: #fff;
     height: 24px;
-    font-size: 12px;
     cursor: pointer;
-    line-height: 12px;
     padding-left: 22px;
     position: relative; }
     .header .support-bar .header__basket:before {
@@ -3850,13 +3858,24 @@ label {
       cursor: pointer;
       position: absolute;
       background: url("../img/sprite.png") 0 -60px no-repeat; }
+    .header .support-bar .header__basket .basket-number {
+      color: #fff;
+      font-size: 12px;
+      line-height: 12px; }
     .header .support-bar .header__basket .basket-value {
+      color: #fff;
       display: block;
       font-size: 10px; }
     .header .support-bar .header__basket.open, .header .support-bar .header__basket:hover {
       color: #919191; }
       .header .support-bar .header__basket.open:before, .header .support-bar .header__basket:hover:before {
         background-position: -20px -60px; }
+      .header .support-bar .header__basket.open .basket-number, .header .support-bar .header__basket:hover .basket-number {
+        color: #919191; }
+      .header .support-bar .header__basket.open .basket-value, .header .support-bar .header__basket:hover .basket-value {
+        color: #919191; }
+      .header .support-bar .header__basket.open .miniBasket, .header .support-bar .header__basket:hover .miniBasket {
+        display: block; }
   .header .support-bar .header__search-toddle {
     display: inline-block;
     color: #fff;
@@ -3956,6 +3975,52 @@ label {
       border: 1px solid #b3b3b5;
       border-left: none;
       background: url("../img/header_bottom_arrow.png") center no-repeat; }
+.header .miniBasket {
+  top: 100%;
+  right: 10px;
+  z-index: 999;
+  width: 224px;
+  display: none;
+  background: #fff;
+  position: absolute;
+  border: 1px solid #303030; }
+  .header .miniBasket .miniBasket__inner {
+    margin: 3px 0;
+    padding: 20px 0;
+    position: relative; }
+  .header .miniBasket .miniBasket__body {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .header .miniBasket .miniBasket__body li {
+      color: #000;
+      padding: 10px;
+      font-size: 12px; }
+      .header .miniBasket .miniBasket__body li:nth-child(even) {
+        background: #f1f1f1; }
+  .header .miniBasket .miniBasket__left {
+    float: left;
+    width: 60px;
+    text-align: center; }
+  .header .miniBasket .miniBasket__right {
+    margin-left: 70px; }
+  .header .miniBasket .miniBasket__size {
+    margin-bottom: 4px; }
+  .header .miniBasket .miniBasket__price_old {
+    color: #606060;
+    text-decoration: line-through; }
+  .header .miniBasket .miniBasket__price {
+    font-size: 16px; }
+  .header .miniBasket .miniBasket__buy {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin: 0 10px;
+    border-top: 1px solid #c6c6c6; }
+    .header .miniBasket .miniBasket__buy .miniBasket__summary {
+      color: #363636;
+      font-size: 18px;
+      padding-top: 5px;
+      margin-bottom: 10px; }
 @media (min-width: 768px) {
   .header .header__top {
     padding-top: 12px;
@@ -4737,6 +4802,21 @@ label {
   padding-left: 10px;
   padding-right: 10px; }
 
+.vertical-nav {
+  left: 50%;
+  width: 37px;
+  height: 16px;
+  cursor: pointer;
+  margin-left: -19px;
+  position: absolute;
+  background: url("../img/sprite.png") no-repeat; }
+  .vertical-nav.prev {
+    top: 0;
+    background-position: -110px -42px; }
+  .vertical-nav.next {
+    bottom: 0;
+    background-position: -110px -58px; }
+
 @media (min-width: 1170px) {
   .page {
     padding-top: 20px; }
@@ -4845,21 +4925,45 @@ label {
       display: inline-block;
       max-width: 100%;
       height: auto; }
-  .historyView .vertical-nav {
-    left: 50%;
-    width: 37px;
-    height: 16px;
-    cursor: pointer;
-    margin-left: -19px;
-    position: absolute;
-    background: url("../img/sprite.png") no-repeat; }
-    .historyView .vertical-nav.prev {
-      top: 0;
-      background-position: -110px -42px; }
-    .historyView .vertical-nav.next {
-      bottom: 0;
-      background-position: -110px -58px; }
 
+.profileNav {
+  padding: 0;
+  list-style: none;
+  margin: 0 0 20px 40px; }
+  .profileNav li a {
+    color: #262626;
+    display: block;
+    padding: 0 6px;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none; }
+    .profileNav li a:hover {
+      background: #ebebeb; }
+
+.userNav {
+  padding: 10px 0;
+  list-style: none;
+  margin: 0 0 0 40px;
+  border-top: 1px solid #6a6a6a;
+  border-bottom: 1px solid #6a6a6a; }
+  .userNav li {
+    padding: 10px 0; }
+    .userNav li a {
+      color: #262626;
+      display: block;
+      padding: 0 6px;
+      font-size: 15px;
+      line-height: 20px;
+      text-decoration: none; }
+      .userNav li a:hover {
+        background: #ebebeb; }
+
+@media (min-width: 1620px) {
+  .profileNav {
+    margin-right: 40px; }
+
+  .userNav {
+    margin-right: 40px; } }
 .product__top {
   margin-bottom: 40px; }
 
@@ -5406,6 +5510,8 @@ label {
     vertical-align: top;
     margin: 0 auto 20px auto;
     display: inline-block; }
+    .showcase .showcase__item:hover .showcase__view {
+      display: block; }
   .showcase .showcase__sale {
     right: 0;
     top: 20px;
@@ -5460,7 +5566,7 @@ label {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 200;
+    z-index: 300;
     display: block;
     cursor: pointer;
     position: absolute;
@@ -5477,6 +5583,61 @@ label {
       background: rgba(255, 255, 255, 0.4); }
     .showcase .showcase__link:hover span {
       display: inline-block; }
+  .showcase .showcase__view {
+    top: -6px;
+    left: -71px;
+    right: -6px;
+    z-index: 200;
+    display: none;
+    background: #fff;
+    position: absolute;
+    padding: 5px 5px 6px 70px;
+    border: 1px solid #404040; }
+    .showcase .showcase__view .showcase__fast {
+      padding-top: 5px;
+      text-align: right;
+      border-top: 1px solid #a9a9a9; }
+      .showcase .showcase__view .showcase__fast .showcase__fast_title {
+        color: #a8a8a8;
+        font-size: 12px;
+        margin-bottom: 5px; }
+    .showcase .showcase__view .showcase_thumb {
+      top: 5px;
+      left: 5px;
+      margin: 0;
+      padding: 0;
+      width: 60px;
+      list-style: none;
+      position: absolute; }
+      .showcase .showcase__view .showcase_thumb li {
+        padding: 2px;
+        border: 1px solid #6a6a6a;
+        border-bottom-color: transparent; }
+        .showcase .showcase__view .showcase_thumb li:last-child {
+          border-bottom-color: #6a6a6a; }
+  .showcase .showcase__size {
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    margin: 0;
+    list-style: none; }
+    .showcase .showcase__size li {
+      display: inline-block;
+      margin: 5px 0 10px 10px; }
+      .showcase .showcase__size li label {
+        width: 28px;
+        color: #2d2c27;
+        padding: 2px 4px;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        display: inline-block;
+        border: 2px solid #dedede; }
+        .showcase .showcase__size li label.checked {
+          border-color: #e24d1e; }
+        .showcase .showcase__size li label .icr-text {
+          vertical-align: inherit; }
 
 @media (min-width: 768px) {
   .filter .filter__group li {

@@ -209,7 +209,7 @@ $('.historyView .vertical-nav.next').click(function(){
 
 $('.product__gallery').tabs();
 
-$(".product__image a").fancybox({
+$(".btn-modal, .product__image a").fancybox({
     'padding' : 0,
     'tpl'        : {
         closeBtn : '<a title="Close" class="btn_close" href="javascript:;"></a>',
@@ -254,7 +254,7 @@ $(".grade input[type='radio']").ionCheckRadio();
 $(".btn-recomend input[type='radio']").ionCheckRadio();
 $(".filter__group input[type='radio']").ionCheckRadio();
 $(".basket__size input[type='radio']").ionCheckRadio();
-
+$(".showcase__size input[type='radio']").ionCheckRadio();
 
 
 // Minibasket
@@ -274,4 +274,12 @@ $(document).ready(function() {
         $input.change();
         return false;
     });
+});
+
+$('.header__basket').click(function(){
+    $('.miniBasket').toggle();
+});
+
+$('.miniBasket button').click(function(){
+    $('.miniBasket').hide();
 });

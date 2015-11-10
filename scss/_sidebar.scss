@@ -92,24 +92,66 @@
 			@include img-responsive(inline-block);
 		}
 	}
+}
 
-	.vertical-nav {
-		left: 50%;
-		width: 37px;
-		height: 16px;
-		cursor: pointer;
-		margin-left: -19px;
-		position: absolute;
-		background: url("../img/sprite.png") no-repeat;
+.profileNav {
+	padding: 0;
+	list-style: none;
+	margin: 0 0 20px 40px;
 
-		&.prev {
-			top: 0;
-			background-position: -110px -42px;
+	li {
+
+		a {
+			color: #262626;
+			display: block;
+			padding: 0 6px;
+			font-size: 15px;
+			line-height: 20px;
+			text-decoration: none;
+
+			&:hover {
+				background: #ebebeb;
+			}
 		}
+	}
+}
 
-		&.next {
-			bottom: 0;
-			background-position: -110px -58px;
+.userNav {
+	padding: 10px 0;
+	list-style: none;
+	margin: 0 0 0 40px;
+	border-top: 1px solid #6a6a6a;
+	border-bottom: 1px solid #6a6a6a;
+
+	li {
+		padding: 10px 0;
+
+		a {
+			color: #262626;
+			display: block;
+			padding: 0 6px;
+			font-size: 15px;
+			line-height: 20px;
+			text-decoration: none;
+
+			&:hover {
+				background: #ebebeb;
+			}
 		}
+	}
+}
+
+@media (min-width: $screen-md-min) {
+
+}
+
+@media (min-width: $screen-lg-min) {
+
+	.profileNav {
+		margin-right: 40px;
+	}
+
+	.userNav {
+		margin-right: 40px;
 	}
 }

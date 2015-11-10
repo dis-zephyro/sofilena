@@ -17,14 +17,16 @@
             <div class="container">
                 <div class="row">
                     <aside class="sidebar hidden-xs hidden-sm">
-
-                        <!-- SideNav -->
-                        <?php include('includes/sidenav.inc.php') ?>
-                        <!-- SideNav End-->
-
-                        <!-- History -->
-                        <?php include('includes/history_view.inc.php') ?>
-                        <!-- History End-->
+                        <ul class="profileNav">
+                            <li><a href="#">Вход</a></li>
+                            <li><a href="#">Регистрация</a></li>
+                            <li><a href="#">Востановление пароля</a></li>
+                        </ul>
+                        <ul class="userNav">
+                            <li><a href="#">Моя корзина</a></li>
+                            <li><a href="#">Заявка на продукцию</a></li>
+                            <li><a href="#">Оформить подписку</a></li>
+                        </ul>
                     </aside>
                     <div class="content">
                         <!-- Breadcrumb -->
@@ -213,7 +215,7 @@
                                                 <div class="basket__col">
                                                     <div class="basket__number number">
                                                         <span class="minus"><i class="fa fa-plus"></i></span>
-                                                        <input type="text" value="1"/>
+                                                        <input type="text" name="num" value="1"/>
                                                         <span class="plus"><i class="fa fa-minus"></i></span>
                                                     </div>
                                                 </div>
@@ -237,7 +239,7 @@
 
                             <div class="basket__buy text-right">
                                 <div class="basket__buy_discount">Ваша скидка: <span>2 500 руб.</span></div>
-                                <div class="basket__buy_summary">Сумма заказа:<span>12 000 руб.</span></div>
+                                <div class="basket__buy_summary">Сумма заказа: <span>12 000 руб.</span></div>
                                 <div class="row">
                                     <a href="#" class="btn btn-mini">войти и заказать</a>
                                     <a href="#" class="btn btn-mini">зарегистроваться и заказать</a>
