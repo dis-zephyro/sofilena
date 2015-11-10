@@ -64,6 +64,14 @@ h1, h2, h3, h4 {
 	font-weight: 400;
 }
 
+h1 {
+	font-size: 25px;
+	line-height: 1;
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-family: $font-narrow;
+}
+
 h2 {
 	color: #15100a;
 	font-size: 25px;
@@ -97,7 +105,14 @@ p {
 }
 
 .divider40 {
-	padding-top: 39px;
 	margin-bottom: 40px;
 	border-bottom: 1px solid #6a6a6a;
+}
+
+@media (min-width: $screen-sm-min)  {
+
+	h1 {
+		font-size: 33px;
+		line-height: 35px;
+	}
 }

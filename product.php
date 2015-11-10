@@ -22,45 +22,9 @@
                         <?php include('includes/sidenav.inc.php') ?>
                         <!-- SideNav End-->
 
-                        <div class="sidebar__title">вы смотрели:</div>
-                        <div class="historyView">
-                            <div class="historyView__slider">
-                                <div class="historyView__row clearfix">
-                                    <a href="#" class="historyView__item">
-                                        <img src="images/history_view_01.jpg" alt="">
-                                    </a>
-                                    <a href="#" class="historyView__item">
-                                        <img src="images/history_view_02.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="historyView__row clearfix">
-                                    <a href="#" class="historyView__item">
-                                        <img src="images/history_view_01.jpg" alt="">
-                                    </a>
-                                    <a href="#" class="historyView__item">
-                                        <img src="images/history_view_02.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="historyView__row clearfix">
-                                    <a href="#" class="historyView__item">
-                                        <img src="images/history_view_01.jpg" alt="">
-                                    </a>
-                                    <a href="#" class="historyView__item">
-                                        <img src="images/history_view_02.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="historyView__row clearfix">
-                                    <a href="#" class="historyView__item">
-                                        <img src="images/history_view_01.jpg" alt="">
-                                    </a>
-                                    <a href="#" class="historyView__item">
-                                        <img src="images/history_view_02.jpg" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <span class="vertical-nav prev"></span>
-                            <span class="vertical-nav next"></span>
-                        </div>
+                        <!-- History -->
+                        <?php include('includes/history_view.inc.php') ?>
+                        <!-- History End-->
                     </aside>
                     <div class="content">
                         <!-- Breadcrumb -->
@@ -304,96 +268,10 @@
                                 </div>
                             </div>
                             <!-- ++ -->
-                            <div class="product__hits">
-                                <div class="hits-title">Хиты продаж</div>
-                                <div class="promoSlider">
-                                    <div class="promoSlider__body promoSlider_product">
 
-                                        <div class="promoSlider__item">
-                                            <div class="promoSlider__image">
-                                                <img class="img-responsive" src="images/product_promo_01.jpg" alt="">
-                                                <a class="promoSlider__link">
-                                                    <span>быстрый просмотр</span>
-                                                </a>
-                                            </div>
-                                            <div class="promoSlider__text">
-                                                <span class="promoSlider__name">Платье 19660</span>
-                                                <span class="promoSlider__price"><b>3 000</b> руб.</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="promoSlider__item">
-                                            <div class="promoSlider__image">
-                                                <img class="img-responsive" src="images/product_promo_02.jpg" alt="">
-                                                <a class="promoSlider__link">
-                                                    <span>быстрый просмотр</span>
-                                                </a>
-                                            </div>
-                                            <div class="promoSlider__text">
-                                                <span class="promoSlider__name">Платье 19660</span>
-                                                <span class="promoSlider__price"><b>3 000</b> руб.</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="promoSlider__item">
-                                            <div class="promoSlider__image">
-                                                <img class="img-responsive" src="images/product_promo_01.jpg" alt="">
-                                                <a class="promoSlider__link">
-                                                    <span>быстрый просмотр</span>
-                                                </a>
-                                            </div>
-                                            <div class="promoSlider__text">
-                                                <span class="promoSlider__name">Платье 19660</span>
-                                                <span class="promoSlider__price"><b>3 000</b> руб.</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="promoSlider__item">
-                                            <div class="promoSlider__image">
-                                                <img class="img-responsive" src="images/product_promo_02.jpg" alt="">
-                                                <a class="promoSlider__link">
-                                                    <span>быстрый просмотр</span>
-                                                </a>
-                                            </div>
-                                            <div class="promoSlider__text">
-                                                <span class="promoSlider__name">Платье 19660</span>
-                                                <span class="promoSlider__price"><b>3 000</b> руб.</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="promoSlider__item">
-                                            <div class="promoSlider__image">
-                                                <img class="img-responsive" src="images/product_promo_02.jpg" alt="">
-                                                <a class="promoSlider__link">
-                                                    <span>быстрый просмотр</span>
-                                                </a>
-                                            </div>
-                                            <div class="promoSlider__text">
-                                                <span class="promoSlider__name">Платье 19660</span>
-                                                <span class="promoSlider__price"><b>3 000</b> руб.</span>
-                                            </div>
-                                        </div>
-
-                                        <div class="promoSlider__item">
-                                            <div class="promoSlider__image">
-                                                <img class="img-responsive" src="images/product_promo_01.jpg" alt="">
-                                                <a class="promoSlider__link">
-                                                    <span>быстрый просмотр</span>
-                                                </a>
-                                            </div>
-                                            <div class="promoSlider__text">
-                                                <span class="promoSlider__name">Платье 19660</span>
-                                                <span class="promoSlider__price"><b>3 000</b> руб.</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <span class="slide-nav slide-nav-hit prev"></span>
-                                    <span class="slide-nav slide-nav-hit next"></span>
-                                </div>
-                                <div class="text-center">
-                                    <a href="#" class="btn btn-dark">смотреть все хиты</a>
-                                </div>
-                            </div>
+                            <!-- Hits -->
+                            <?php include('includes/product__hits.inc.php') ?>
+                            <!-- ++ -->
 
                             <div class="divider40"></div>
 

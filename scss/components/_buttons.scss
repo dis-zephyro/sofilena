@@ -1,7 +1,6 @@
 .btn {
 	margin:0;
 	color: #fff;
-	border: none;
 	outline: none;
 	cursor: pointer;
 	font-size: 18px;
@@ -9,7 +8,7 @@
 	line-height: 20px;
 	text-align: center;
 	position: relative;
-	padding: 10px 15px;
+	padding: 9px 15px;
 	background: #262626;
 	display: inline-block;
 	text-decoration: none;
@@ -17,11 +16,13 @@
 	background-image: none;
 	touch-action: manipulation;
 	text-transform: uppercase;
+	border: 1px solid #262626;
 
 	&:hover {
 		color: #fff;
 		background: #505050;
 		text-decoration: none;
+		border-color: #505050;
 	}
 
 	&:active {
@@ -46,5 +47,18 @@
 			position: absolute;
 			background: url("../img/sprite.png") -177px -60px no-repeat;
 		}
+	}
+}
+
+.btn-transparent {
+	color: #242424;
+	padding: 8px 40px;
+	background: transparent;
+
+	&:hover {
+		color: #242424;
+		background: #ccc;
+		text-decoration: none;
+		border-color: #262626;
 	}
 }

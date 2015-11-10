@@ -252,3 +252,4 @@ $('.reply').tabs();
 
 $(".grade input[type='radio']").ionCheckRadio();
 $(".btn-recomend input[type='radio']").ionCheckRadio();
+$(".filter__group input[type='radio']").ionCheckRadio();
