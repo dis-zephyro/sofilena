@@ -120,7 +120,6 @@
                 <div class="header__basket">
                     <span class="hidden-xs">
                         <span class="basket-number"> 3 товара </span>
-                        <span class="basket-value">(12 000руб.)</span>
                     </span>
                 </div>
                 <span class="header__search-toddle" id="header__search-toddle"></span>
@@ -185,6 +184,108 @@
                     <button type="reset" class="btn-clear pull-right"></button>
                 </div>
             </div>
+
+            <!-- MobileNav -->
+
+            <nav class="mobileNav">
+                <ul class="mobileNav__first">
+                    <li>
+                        <a href="#">Каталог</a>
+                        <div class="mobileNav__dropdown">
+                            <ul>
+                                <li><a href="#">Новинки</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">Акции</a></li>
+                                <li><a href="#">Акция 30%</a></li>
+                                <li><a href="#">Акция 40%</a></li>
+                                <li><a href="#">Акция 50%</a></li>
+                            </ul>
+                            <ul>
+                                <li class="sale"><a class="text-orange" href="#">Sale</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">Женская одежда</a></li>
+                                <li><a href="#">Блузки, туники, жакеты</a></li>
+                                <li><a href="#">Брюки, лосины, комбинезоны</a></li>
+                                <li><a href="#">Комплекты</a></li>
+                                <li><a href="#">Куртки плащи</a></li>
+                                <li><a href="#">Платья, сарафаны</a></li>
+                                <li><a href="#">Юбки</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">Коллекции</a></li>
+                                <li><a href="#">Нарядная коллекция</a></li>
+                                <li><a href="#">Белла - больше размеры</a></li>
+                                <li><a href="#">Донна - средние размеры</a></li>
+                                <li><a href="#">Премиум колекция</a></li>
+                                <li><a href="#">Лайт коллекция</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="">Деловой стиль</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">ШКОЛЬНАЯ ФОРМА</a></li>
+                                <li><a href="#">Для девочек</a></li>
+                                <li><a href="#">Для мальчиков</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">Туризм и рыбалка</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">Спецодежда</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">Логотипная продукция</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">Аксессуары</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">Архивная коллекция</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">О нас</a>
+                        <div class="mobileNav__dropdown">
+                            <ul>
+                                <li><a href="#">О компании</a></li>
+                                <li><a href="#">Магазины</a></li>
+                                <li><a href="#">Услуги производства</a></li>
+                                <li><a href="#">Оптовикам</a></li>
+                                <li><a href="#">Новости</a></li>
+                                <li><a href="#">Отзывы</a></li>
+                                <li><a href="#">Контакты</a></li>
+                                <li><a href="#">Юридическая информация</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">сервис и помощь</a>
+                        <div class="mobileNav__dropdown">
+                            <ul>
+                                <li><a href="#">О компании</a></li>
+                                <li><a href="#">Магазины</a></li>
+                                <li><a href="#">Услуги производства</a></li>
+                                <li><a href="#">Оптовикам</a></li>
+                                <li><a href="#">Новости</a></li>
+                                <li><a href="#">Отзывы</a></li>
+                                <li><a href="#">Контакты</a></li>
+                                <li><a href="#">Юридическая информация</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="mobileNav__second">
+                    <li><a href="#">вход</a></li>
+                    <li><a href="#">Регистрация</a></li>
+                    <li><a href="#">востановление пароля</a></li>
+                    <li><a href="#">моя корзина</a></li>
+                    <li><a href="#">заявки на продукцию</a></li>
+                    <li><a href="#">Оформить подписку</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 

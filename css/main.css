@@ -3861,7 +3861,7 @@ label {
     .header .support-bar .header__basket .basket-number {
       color: #fff;
       font-size: 12px;
-      line-height: 12px; }
+      line-height: 24px; }
     .header .support-bar .header__basket .basket-value {
       color: #fff;
       display: block;
@@ -4021,6 +4021,97 @@ label {
       font-size: 18px;
       padding-top: 5px;
       margin-bottom: 10px; }
+.header .mobileNav {
+  left: 0;
+  top: 100%;
+  z-index: 7777;
+  width: 300px;
+  display: none;
+  background: #fff;
+  position: absolute;
+  -webkit-box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.2); }
+  .header .mobileNav .mobileNav__first {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .header .mobileNav .mobileNav__first > li {
+      border-top: 2px solid #fff; }
+      .header .mobileNav .mobileNav__first > li > a {
+        width: 100%;
+        color: #fff;
+        font-size: 23px;
+        line-height: 28px;
+        background: #242424;
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        font-family: "PT Sans Narrow", sans-serif;
+        text-transform: uppercase;
+        padding: 5px 30px 5px 20px; }
+        .header .mobileNav .mobileNav__first > li > a:before {
+          top: 50%;
+          right: 10px;
+          width: 19px;
+          height: 11px;
+          content: ' ';
+          margin-top: -6px;
+          position: absolute;
+          background: url("../img/mobileNav_arrow_gray.png") 0 0 no-repeat; }
+  .header .mobileNav .mobileNav__dropdown {
+    display: none; }
+    .header .mobileNav .mobileNav__dropdown > ul {
+      margin: 0;
+      padding: 10px 0;
+      list-style: none; }
+      .header .mobileNav .mobileNav__dropdown > ul > li {
+        padding: 0 50px 0 35px; }
+        .header .mobileNav .mobileNav__dropdown > ul > li > a {
+          color: #505050;
+          font-size: 14px;
+          padding: 1px 8px;
+          line-height: 16px;
+          text-decoration: none; }
+        .header .mobileNav .mobileNav__dropdown > ul > li:first-child {
+          padding: 0; }
+          .header .mobileNav .mobileNav__dropdown > ul > li:first-child > a {
+            color: #5d2c5a;
+            font-size: 17px;
+            line-height: 20px;
+            padding: 2px 20px;
+            text-transform: uppercase; }
+            .header .mobileNav .mobileNav__dropdown > ul > li:first-child > a.text-orange {
+              color: #e24d1e; }
+          .header .mobileNav .mobileNav__dropdown > ul > li:first-child.active a {
+            color: #fff;
+            background: #262626; }
+  .header .mobileNav .mobileNav__second {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .header .mobileNav .mobileNav__second > li {
+      border-top: 2px solid #fff; }
+      .header .mobileNav .mobileNav__second > li > a {
+        width: 100%;
+        color: #fff;
+        font-size: 23px;
+        line-height: 28px;
+        background: #966993;
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        font-family: "PT Sans Narrow", sans-serif;
+        text-transform: uppercase;
+        padding: 5px 30px 5px 20px; }
+        .header .mobileNav .mobileNav__second > li > a:before {
+          top: 50%;
+          right: 10px;
+          width: 11px;
+          height: 19px;
+          content: ' ';
+          margin-top: -10px;
+          position: absolute;
+          background: url("../img/mobileNav_arrow_white.png") 0 0 no-repeat; }
 @media (min-width: 768px) {
   .header .header__top {
     padding-top: 12px;
@@ -4424,11 +4515,23 @@ label {
   .promo .promo__item {
     margin: 0 0 25px 0;
     position: relative;
-    display: inline-block; }
+    display: block;
+    overflow: hidden; }
     .promo .promo__item img {
+      -webkit-transition: 0.5s ease-out;
+      -o-transition: 0.5s ease-out;
+      transition: 0.5s ease-out;
       display: inline-block;
       max-width: 100%;
       height: auto; }
+    .promo .promo__item:hover img {
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition: 0.5s ease-out;
+      -o-transition: 0.5s ease-out;
+      transition: 0.5s ease-out; }
   .promo .promo__box {
     top: 0;
     left: 20px;

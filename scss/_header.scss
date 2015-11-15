@@ -295,7 +295,7 @@
 			.basket-number {
 				color: #fff;
 				font-size: 12px;
-				line-height: 12px;
+				line-height: 24px;
 			}
 
 			.basket-value {
@@ -524,6 +524,132 @@
 				font-size: 18px;
 				padding-top: 5px;
 				margin-bottom: 10px;
+			}
+		}
+	}
+
+
+	.mobileNav {
+		left: 0;
+		top: 100%;
+		z-index: 7777;
+		width: 300px;
+		display: none;
+		background: #fff;
+		position: absolute;
+		@include box-shadow(-1px 3px 5px 0px rgba(0, 0, 0, 0.2));
+
+		.mobileNav__first {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+
+			> li {
+				border-top: 2px solid #fff;
+
+				> a {
+					width: 100%;
+					color: #fff;
+					font-size: 23px;
+					line-height: 28px;
+					background: #242424;
+					position: relative;
+					display: inline-block;
+					text-decoration: none;
+					font-family: $font-narrow;
+					text-transform: uppercase;
+					padding: 5px 30px 5px 20px;
+
+					&:before {
+						top: 50%;
+						right: 10px;
+						width: 19px;
+						height: 11px;
+						content: ' ';
+						margin-top: -6px;
+						position: absolute;
+						background: url("../img/mobileNav_arrow_gray.png") 0 0 no-repeat;
+					}
+				}
+			}
+		}
+
+		.mobileNav__dropdown {
+			display: none;
+
+			> ul {
+				margin: 0;
+				padding: 10px 0 ;
+				list-style: none;
+
+				> li {
+					padding: 0 50px 0 35px;
+
+					> a {
+						color: #505050;
+						font-size: 14px;
+						padding: 1px 8px;
+						line-height: 16px;
+						text-decoration: none;
+					}
+
+					&:first-child {
+						padding: 0;
+
+
+						> a {
+							color: #5d2c5a;
+							font-size: 17px;
+							line-height: 20px;
+							padding: 2px 20px;
+							text-transform: uppercase;
+
+							&.text-orange {
+								color: #e24d1e;
+							}
+						}
+
+						&.active a {
+							color: #fff;
+							background: #262626;
+						}
+					}
+				}
+			}
+		}
+
+		.mobileNav__second {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+
+			> li {
+				border-top: 2px solid #fff;
+
+				> a {
+					width: 100%;
+					color: #fff;
+					font-size: 23px;
+					line-height: 28px;
+					background: #966993;
+					position: relative;
+					display: inline-block;
+					text-decoration: none;
+					font-family: $font-narrow;
+					text-transform: uppercase;
+					padding: 5px 30px 5px 20px;
+
+					&:before {
+						top: 50%;
+						right: 10px;
+						width: 11px;
+						height: 19px;
+						content: ' ';
+						margin-top: -10px;
+						position: absolute;
+						background: url("../img/mobileNav_arrow_white.png") 0 0 no-repeat;
+					}
+				}
 			}
 		}
 	}

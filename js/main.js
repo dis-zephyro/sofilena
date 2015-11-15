@@ -22,7 +22,7 @@ $(function() {
 
 $(function() {
     var pull = $('.btn-nav');
-    var menu = $('.topNav');
+    var menu = $('.mobileNav');
 
     $(pull).on('click', function(e) {
         e.preventDefault();
@@ -31,10 +31,20 @@ $(function() {
 
     $(window).resize(function(){
         var w = $(window).width();
-        if(w > 1169 && menu.is(':hidden')) {
+        if(w > 1169) {
             menu.removeAttr('style');
         }
     });
+});
+
+
+// mobileNav --------
+
+$('.mobileNav__first > li > a').click(function (event) {
+    event.preventDefault();
+    var box = $(this).closest('.mobileNav__first > li');
+    var body = box.find('.mobileNav__dropdown');
+    body.slideToggle(300);
 });
 
 
