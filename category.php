@@ -229,7 +229,7 @@
                                 <div class="col-xs-6 col-sm-3 col-md-4 col-lg-3">
                                     <div class="showcase__item">
                                         <div class="showcase__image">
-                                            <span class="showcase__sale showcase__sale20">20%</span>
+                                            <span class="showcase__sale showcase__sale10">10%</span>
                                             <img src="images/product_promo_02.jpg" alt="">
                                         </div>
                                         <div class="showcase__name">Платье 19660</div>
@@ -262,7 +262,7 @@
                                                 </li>
                                             </ul>
                                             <div class="showcase__image">
-                                                <span class="showcase__sale showcase__sale20">20%</span>
+                                                <span class="showcase__sale showcase__sale10">10%</span>
                                                 <img src="images/product_promo_02.jpg" alt="">
                                                 <a rel="gallery1" href="images/product_image01_large.jpg" class="showcase__link btn-modal"><span>быстрый просмотр</span></a>
                                             </div>
@@ -355,7 +355,7 @@
                                 <div class="col-xs-6 col-sm-3 col-md-4 col-lg-3">
                                     <div class="showcase__item">
                                         <div class="showcase__image">
-                                            <span class="showcase__sale showcase__sale30">30%</span>
+                                            <span class="showcase__sale showcase__sale10">10%</span>
                                             <img src="images/product_promo_02.jpg" alt="">
                                         </div>
                                         <div class="showcase__name">Платье 19660</div>
@@ -388,7 +388,7 @@
                                                 </li>
                                             </ul>
                                             <div class="showcase__image">
-                                                <span class="showcase__sale showcase__sale30">30%</span>
+                                                <span class="showcase__sale showcase__sale10">10%</span>
                                                 <img src="images/product_promo_02.jpg" alt="">
                                                 <a rel="gallery1" href="images/product_image01_large.jpg" class="showcase__link btn-modal"><span>быстрый просмотр</span></a>
                                             </div>
@@ -418,7 +418,7 @@
                                 <div class="col-xs-6 col-sm-3 col-md-4 col-lg-3">
                                     <div class="showcase__item">
                                         <div class="showcase__image">
-                                            <span class="showcase__sale showcase__sale30">30%</span>
+                                            <span class="showcase__sale showcase__sale20">20%</span>
                                             <img src="images/product_promo_02.jpg" alt="">
                                         </div>
                                         <div class="showcase__name">Платье 19660</div>
@@ -451,7 +451,7 @@
                                                 </li>
                                             </ul>
                                             <div class="showcase__image">
-                                                <span class="showcase__sale showcase__sale30">30%</span>
+                                                <span class="showcase__sale showcase__sale20">20%</span>
                                                 <img src="images/product_promo_02.jpg" alt="">
                                                 <a rel="gallery1" href="images/product_image01_large.jpg" class="showcase__link btn-modal"><span>быстрый просмотр</span></a>
                                             </div>

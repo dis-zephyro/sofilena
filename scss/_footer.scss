@@ -1,4 +1,5 @@
 .footer {
+	position: relative;
 	background: #1a1a1a;
 
 	.footer__top {
@@ -86,6 +87,13 @@
 		}
 	}
 
+	.footer__title {
+		color: #fff;
+		margin-bottom: 3px;
+		font-family: $font-narrow;
+		text-transform: uppercase;
+	}
+
 	.footer__form {
 		display: none;
 		margin-bottom: 20px;
@@ -124,9 +132,27 @@
 			}
 		}
 
+		.form-control {
+			padding: 0;
+			color: #fff;
+			background: transparent;
+			border-bottom: 1px solid #fff;
+
+			@include placeholder(#fff);
+		}
+
 		.btn {
 			width: 100%;
 		}
+	}
+
+	.btn-up {
+		left: 10px;
+		top: -100px;
+		width: 60px;
+		height: 60px;
+		display: none;
+		position: absolute;
 	}
 
 	@media (min-width: $screen-sm-min) {
@@ -164,6 +190,10 @@
 			.footer__social {
 				float: none;
 			}
+		}
+
+		.btn-up {
+			display: block;
 		}
 	}
 

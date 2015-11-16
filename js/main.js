@@ -110,6 +110,8 @@ $('.slider__body').slick({
     arrows: false,
     autoplay: true,
     dots: false,
+    fade: true,
+    cssEase: 'linear',
     autoplaySpeed: 4000,
     slidesToShow: 1,
     slidesToScroll: 1
@@ -292,4 +294,12 @@ $('.header__basket').click(function(){
 
 $('.miniBasket button').click(function(){
     $('.miniBasket').hide();
+});
+
+
+// Scroll Up
+$('.btn-up').click(function(){
+    var str=$(this).attr('href');
+    $.scrollTo(str, 500, {offset:0 });
+    return false;
 });

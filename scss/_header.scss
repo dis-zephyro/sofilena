@@ -586,11 +586,19 @@
 					padding: 0 50px 0 35px;
 
 					> a {
+						width: 100%;
 						color: #505050;
 						font-size: 14px;
 						padding: 1px 8px;
 						line-height: 16px;
+						display: inline-block;
 						text-decoration: none;
+					}
+
+					&.active {
+						> a {
+							background: #f0f0f0;
+						}
 					}
 
 					&:first-child {
@@ -652,8 +660,11 @@
 				}
 			}
 		}
-	}
 
+		.mobileNav__sale {
+			padding: 20px 10px;
+		}
+	}
 
 	@media (min-width: $screen-sm-min) {
 

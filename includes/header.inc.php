@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header" id="top">
     <div class="header__top">
         <div class="container">
             <div class="header__shipping">бесплатная доставка по всех россии  <a href="#">узнать больше</a></div>
@@ -205,10 +205,10 @@
                                 <li class="sale"><a class="text-orange" href="#">Sale</a></li>
                             </ul>
                             <ul>
-                                <li><a href="#">Женская одежда</a></li>
+                                <li class="active"><a href="#">Женская одежда</a></li>
                                 <li><a href="#">Блузки, туники, жакеты</a></li>
                                 <li><a href="#">Брюки, лосины, комбинезоны</a></li>
-                                <li><a href="#">Комплекты</a></li>
+                                <li class="active"><a href="#">Комплекты</a></li>
                                 <li><a href="#">Куртки плащи</a></li>
                                 <li><a href="#">Платья, сарафаны</a></li>
                                 <li><a href="#">Юбки</a></li>
@@ -285,14 +285,12 @@
                     <li><a href="#">заявки на продукцию</a></li>
                     <li><a href="#">Оформить подписку</a></li>
                 </ul>
+                <div class="mobileNav__sale">
+                    <a href="#">
+                        <img class="img-responsive" src="images/dropnav_banner.png" alt="">
+                    </a>
+                </div>
             </nav>
-        </div>
-    </div>
-
-    <div class="header__bottom">
-        <div class="container">
-            <span class="hb__text">Производство и продажа женской одежды, школьной формы, одежды для отдыха и рыбалки, спецодежды   <span class="sup">Оптом и в розницу</span></span>
-            <a href="#" class="hb__link">узнать условия подробнее</a>
         </div>
     </div>
 </header>

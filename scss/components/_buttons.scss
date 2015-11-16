@@ -51,13 +51,14 @@
 }
 
 .btn-transparent {
+	width: 90%;
 	color: #242424;
-	padding: 8px 40px;
-	background: transparent;
+	padding: 8px 10px;
+	background: rgba(255,255,255, .7);
 
 	&:hover {
 		color: #242424;
-		background: #ccc;
+		background: rgba(255,255,255, 1);
 		text-decoration: none;
 		border-color: #262626;
 	}

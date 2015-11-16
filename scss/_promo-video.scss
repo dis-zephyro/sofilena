@@ -2,6 +2,17 @@
 	padding-top: 40px;
 	padding-bottom: 40px;
 
+	background: #fae9f9; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmFlOWY5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMjclIiBzdG9wLWNvbG9yPSIjZWZkZWVlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZDJjZWVhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNzUlIiBzdG9wLWNvbG9yPSIjZjlmMmY5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VmZGZlZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(-45deg,  #fae9f9 0%, #efdeee 27%, #d2ceea 50%, #f9f2f9 75%, #efdfee 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#fae9f9), color-stop(27%,#efdeee), color-stop(50%,#d2ceea), color-stop(75%,#f9f2f9), color-stop(100%,#efdfee)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #fae9f9 0%,#efdeee 27%,#d2ceea 50%,#f9f2f9 75%,#efdfee 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #fae9f9 0%,#efdeee 27%,#d2ceea 50%,#f9f2f9 75%,#efdfee 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #fae9f9 0%,#efdeee 27%,#d2ceea 50%,#f9f2f9 75%,#efdfee 100%); /* IE10+ */
+	background: linear-gradient(135deg,  #fae9f9 0%,#efdeee 27%,#d2ceea 50%,#f9f2f9 75%,#efdfee 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fae9f9', endColorstr='#efdfee',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+
 	.promo-video-title {
 		color: #000;
 		font-size: 13px;
@@ -37,7 +48,7 @@
 
 
 .promo-ring-block {
-	padding-bottom: 40px;
+	padding-top: 40px;
 
 	.promo-ring {
 		width: 140px;
@@ -45,7 +56,7 @@
 		color: #1a1a1a;
 		display: table;
 		overflow: hidden;
-		background: #fbf9fc;
+		background: #e7e6e7;
 		text-align: center;
 		margin: 0 auto 10px auto;
 		border: 2px solid #966993;

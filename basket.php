@@ -42,7 +42,6 @@
                             <div class="basket__item">
                                 <div class="row">
                                     <div class="col-md-4 col-lg-5 clearfix">
-                                        <div class="basket__title text-left">Состав</div>
                                         <div class="basket__image">
                                             <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
                                         </div>
@@ -108,7 +107,6 @@
                             <div class="basket__item">
                                 <div class="row">
                                     <div class="col-md-4 col-lg-5 clearfix">
-                                        <div class="basket__title text-left">Состав</div>
                                         <div class="basket__image">
                                             <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
                                         </div>
@@ -174,7 +172,6 @@
                             <div class="basket__item">
                                 <div class="row">
                                     <div class="col-md-4 col-lg-5 clearfix">
-                                        <div class="basket__title text-left">Состав</div>
                                         <div class="basket__image">
                                             <img class="img-responsive" src="images/product_thumb_01.jpg" alt="">
                                         </div>

@@ -1,0 +1,32 @@
+.parallax_top {
+
+}
+
+.parallax_inner {
+
+}
+
+
+@media (min-width: $screen-md-min) {
+
+	.parallax_top {
+		width: 100%;
+		position: fixed;
+	}
+
+	.parallax_inner {
+		margin-top: 723px;
+	}
+}
+
+@media (min-width: $screen-lg-min) {
+
+
+	.parallax_top {
+
+	}
+
+	.parallax_inner {
+;
+	}
+}

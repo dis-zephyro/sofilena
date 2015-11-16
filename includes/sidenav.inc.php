@@ -28,7 +28,9 @@
         <li><a href="#">Премиум колекция</a></li>
         <li><a href="#">Лайт коллекция</a></li>
     </ul>
-    <div class="sidenav__title">Деловой стиль</div>
+    <ul class="sideNav__nav">
+        <li class="sideNav__section active"><a href="#">Деловой стиль</a></li>
+    </ul>
     <ul class="sideNav__nav">
         <li class="sideNav__section"><a href="#">ШКОЛЬНАЯ ФОРМА</a></li>
         <li><a href="#">Для девочек</a></li>

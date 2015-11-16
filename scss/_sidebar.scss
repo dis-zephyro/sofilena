@@ -14,11 +14,13 @@
 	.sideNav__nav {
 		padding: 0;
 		list-style: none;
-		margin: 0 40px 20px 20px;
+		margin: 0 0 20px 0;
+
 
 		li {
 			font-size: 14px;
 			line-height: 16px;
+			padding: 0 40px 0 30px;
 
 			a {
 				color: #404040;
@@ -40,13 +42,26 @@
 			}
 
 			&:first-child {
+				padding: 0;
 				font-size: 17px;
 				line-height: 20px;
 				text-transform: uppercase;
 
 				a {
 					color: #5d2c5a;
-					padding: 1px 0;
+					padding: 1px 20px;
+				}
+
+				&.active {
+
+					a {
+						color: #fff;
+						background: #262626;
+
+						&:hover {
+							background: #5a5a5a;
+						}
+					}
 				}
 			}
 

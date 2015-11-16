@@ -65,7 +65,7 @@
                                 </div>
                             </div>
                             <div class="promo__bottom">
-                                <button class="btn btn-transparent">смотреть  новинки</button>
+                                <button class="btn btn-transparent">начать шопинг</button>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                                 </div>
                             </div>
                             <div class="promo__bottom">
-                                <button class="btn btn-transparent">смотреть  новинки</button>
+                                <button class="btn btn-transparent">смотреть всю коллекцию</button>
                             </div>
                         </div>
                     </div>
@@ -123,14 +123,13 @@
                                 </div>
                             </div>
                             <div class="promo__bottom">
-                                <button class="btn btn-transparent">смотреть  новинки</button>
+                                <button class="btn btn-transparent">смотреть SALE</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
 
         <section class="hits">
             <div class="container">
@@ -284,81 +283,79 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
 
-        <section class="promo-ring-block">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-6 col-sm-4 col-md-2">
-                        <div class="promo-ring">
-                            <div class="promo-ring-inner">
+                <div class="promo-ring-block">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-4 col-md-2">
+                            <div class="promo-ring">
+                                <div class="promo-ring-inner">
                                         <span class="promo-ring-icon">
                                             <img src="img/promo_ring_1.png" alt="">
                                         </span>
-                                <span class="promo-ring-title">Новая коллекция</span>
-                                <span class="promo-ring-text">каждые<br/>2 недели</span>
+                                    <span class="promo-ring-title">Новая коллекция</span>
+                                    <span class="promo-ring-text">каждые<br/>2 недели</span>
+                                </div>
+
                             </div>
-
                         </div>
-                    </div>
 
-                    <div class="col-xs-6 col-sm-4 col-md-2">
-                        <div class="promo-ring">
-                            <div class="promo-ring-inner">
+                        <div class="col-xs-6 col-sm-4 col-md-2">
+                            <div class="promo-ring">
+                                <div class="promo-ring-inner">
                                         <span class="promo-ring-icon">
                                             <img src="img/promo_ring_2.png" alt="">
                                         </span>
-                                <span class="promo-ring-title">100% гарантия</span>
-                                <span class="promo-ring-text">на всю<br/>продукцию</span>
+                                    <span class="promo-ring-title">100% гарантия</span>
+                                    <span class="promo-ring-text">на всю<br/>продукцию</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-xs-6 col-sm-4 col-md-2">
-                        <div class="promo-ring">
-                            <div class="promo-ring-inner">
+                        <div class="col-xs-6 col-sm-4 col-md-2">
+                            <div class="promo-ring">
+                                <div class="promo-ring-inner">
                                 <span class="promo-ring-icon">
                                     <img src="img/promo_ring_3.png" alt="">
                                 </span>
-                                <span class="promo-ring-title">выгодные</span>
-                                <span class="promo-ring-text">предложения для<br/>оптовых клиентов</span>
+                                    <span class="promo-ring-title">выгодные</span>
+                                    <span class="promo-ring-text">предложения для<br/>оптовых клиентов</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-xs-6 col-sm-4 col-md-2">
-                        <div class="promo-ring">
-                            <div class="promo-ring-inner">
+                        <div class="col-xs-6 col-sm-4 col-md-2">
+                            <div class="promo-ring">
+                                <div class="promo-ring-inner">
                                         <span class="promo-ring-icon">
                                             <img src="img/promo_ring_4.png" alt="">
                                         </span>
-                                <span class="promo-ring-title">Бесплатная</span>
-                                <span class="promo-ring-text">доставка<br/>по России</span>
+                                    <span class="promo-ring-title">Бесплатная</span>
+                                    <span class="promo-ring-text">доставка<br/>по России</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-xs-6 col-sm-4 col-md-2">
-                        <div class="promo-ring">
-                            <div class="promo-ring-inner">
+                        <div class="col-xs-6 col-sm-4 col-md-2">
+                            <div class="promo-ring">
+                                <div class="promo-ring-inner">
                                         <span class="promo-ring-icon">
                                             <img src="img/promo_ring_5.png" alt="">
                                         </span>
-                                <span class="promo-ring-title">Российская</span>
-                                <span class="promo-ring-text">размерная<br/>сетка</span>
+                                    <span class="promo-ring-title">Российская</span>
+                                    <span class="promo-ring-text">размерная<br/>сетка</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-xs-6 col-sm-4 col-md-2">
-                        <div class="promo-ring">
-                            <div class="promo-ring-inner">
+                        <div class="col-xs-6 col-sm-4 col-md-2">
+                            <div class="promo-ring">
+                                <div class="promo-ring-inner">
                                         <span class="promo-ring-icon">
                                             <img src="img/promo_ring_6.png" alt="">
                                         </span>
-                                <span class="promo-ring-title">удобные</span>
-                                <span class="promo-ring-text">способы<br/>оплаты</span>
+                                    <span class="promo-ring-title">удобные</span>
+                                    <span class="promo-ring-text">способы<br/>оплаты</span>
+                                </div>
                             </div>
                         </div>
                     </div>

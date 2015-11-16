@@ -123,8 +123,8 @@
                                         <div class="product__info">
                                             <ul class="product__info_section clearfix">
                                                 <li><a href="#product__info_description">Описание</a></li>
-                                                <li><a href="#product__info_pay">Доставка</a></li>
-                                                <li><a href="#product__info_shiping">оплата</a></li>
+                                                <li><a href="#product__info_shiping">Доставка</a></li>
+                                                <li><a href="#product__info_pay">оплата</a></li>
                                             </ul>
                                             <div class="product__info_body">
                                                 <div id="product__info_description">

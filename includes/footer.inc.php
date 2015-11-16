@@ -1,4 +1,7 @@
 <footer class="footer">
+    <a class="btn-up" href="#top">
+        <img src="img/icon_up.png" alt="наверх">
+    </a>
     <div class="footer__top">
         <div class="container">
             <div class="row">
@@ -121,6 +124,7 @@
 <script src="js/vendor/jquery.fancybox/jquery.fancybox.pack.js"></script>
 <script src="js/vendor/jquery-ui/jquery-ui.min.js"></script>
 <script src="js/vendor/jquery.maskedinput.min.js"></script>
+<script src="js/vendor/jquery.scrollTo.min.js"></script>
 <script src="js/vendor/ion.checkRadio.min.js"></script>
 <script src="js/vendor/slick/slick.min.js"></script>
 <script src="js/main.js"></script>
